@@ -11,7 +11,7 @@ require (
 	github.com/go-openapi/spec v0.17.2 // indirect
 	github.com/go-openapi/strfmt v0.17.2
 	github.com/go-openapi/swag v0.17.2
-	github.com/go-openapi/validate v0.17.2 // indirect
+	github.com/go-openapi/validate v0.17.2
 	github.com/google/uuid v1.1.0 // indirect
 	golang.org/x/net v0.0.0-20181217023233-e147a9138326
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect

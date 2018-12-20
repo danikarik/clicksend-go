@@ -21,11 +21,15 @@ go get -u github.com/go-openapi/errors \
 swagger generate client \
     --additional-initialism=SMS \
     --additional-initialism=MMS \
-    --additional-initialism=Fax \
-    --skip-models \
-    --client-package=api \
+    --additional-initialism=FAX \
     --name=clicksend \
-    --spec=./spec/swagger.yaml
+    --spec=./api/swagger.yaml
 
 go get -u -f ./...
+```
+
+## Test
+
+```sh
+go test ./...
 ```
