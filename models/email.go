@@ -248,11 +248,11 @@ func (m *email) Validate(formats strfmt.Registry) error {
 
 func (m *email) validateAttachments(formats strfmt.Registry) error {
 
-	if swag.IsZero(m.Attachments()()) { // not required
+	if swag.IsZero(m.Attachments()) { // not required
 		return nil
 	}
 
-	for i := 0; i < len(m.Attachments()()); i++ {
+	for i := 0; i < len(m.Attachments()); i++ {
 
 		if err := m.attachmentsField[i].Validate(formats); err != nil {
 			if ve, ok := err.(*errors.Validation); ok {
@@ -268,11 +268,11 @@ func (m *email) validateAttachments(formats strfmt.Registry) error {
 
 func (m *email) validateBcc(formats strfmt.Registry) error {
 
-	if swag.IsZero(m.Bcc()()) { // not required
+	if swag.IsZero(m.Bcc()) { // not required
 		return nil
 	}
 
-	for i := 0; i < len(m.Bcc()()); i++ {
+	for i := 0; i < len(m.Bcc()); i++ {
 
 		if err := m.bccField[i].Validate(formats); err != nil {
 			if ve, ok := err.(*errors.Validation); ok {
@@ -297,11 +297,11 @@ func (m *email) validateBody(formats strfmt.Registry) error {
 
 func (m *email) validateCc(formats strfmt.Registry) error {
 
-	if swag.IsZero(m.Cc()()) { // not required
+	if swag.IsZero(m.Cc()) { // not required
 		return nil
 	}
 
-	for i := 0; i < len(m.Cc()()); i++ {
+	for i := 0; i < len(m.Cc()); i++ {
 
 		if err := m.ccField[i].Validate(formats); err != nil {
 			if ve, ok := err.(*errors.Validation); ok {
@@ -335,11 +335,11 @@ func (m *email) validateFrom(formats strfmt.Registry) error {
 
 func (m *email) validateTo(formats strfmt.Registry) error {
 
-	if err := validate.Required("to", "body", m.To()()); err != nil {
+	if err := validate.Required("to", "body", m.To()); err != nil {
 		return err
 	}
 
-	for i := 0; i < len(m.To()()); i++ {
+	for i := 0; i < len(m.To()); i++ {
 
 		if err := m.toField[i].Validate(formats); err != nil {
 			if ve, ok := err.(*errors.Validation); ok {

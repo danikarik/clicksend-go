@@ -146,11 +146,11 @@ func (m *postPostcard) validateFileUrls(formats strfmt.Registry) error {
 
 func (m *postPostcard) validateRecipients(formats strfmt.Registry) error {
 
-	if err := validate.Required("recipients", "body", m.Recipients()()); err != nil {
+	if err := validate.Required("recipients", "body", m.Recipients()); err != nil {
 		return err
 	}
 
-	for i := 0; i < len(m.Recipients()()); i++ {
+	for i := 0; i < len(m.Recipients()); i++ {
 
 		if err := m.recipientsField[i].Validate(formats); err != nil {
 			if ve, ok := err.(*errors.Validation); ok {

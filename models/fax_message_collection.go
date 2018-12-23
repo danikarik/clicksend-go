@@ -146,11 +146,11 @@ func (m *faxMessageCollection) validateFileURL(formats strfmt.Registry) error {
 
 func (m *faxMessageCollection) validateMessages(formats strfmt.Registry) error {
 
-	if err := validate.Required("messages", "body", m.Messages()()); err != nil {
+	if err := validate.Required("messages", "body", m.Messages()); err != nil {
 		return err
 	}
 
-	for i := 0; i < len(m.Messages()()); i++ {
+	for i := 0; i < len(m.Messages()); i++ {
 
 		if err := m.messagesField[i].Validate(formats); err != nil {
 			if ve, ok := err.(*errors.Validation); ok {
