@@ -94,7 +94,7 @@ func NewAccountGetOK() *AccountGetOK {
 SUCCESS
 */
 type AccountGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewAccountGetBadRequest() *AccountGetBadRequest {
 BAD_REQUEST
 */
 type AccountGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewAccountGetUnauthorized() *AccountGetUnauthorized {
 UNAUTHORIZED
 */
 type AccountGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewAccountGetForbidden() *AccountGetForbidden {
 FORBIDDEN
 */
 type AccountGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewAccountGetNotFound() *AccountGetNotFound {
 NOT_FOUND
 */
 type AccountGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewAccountGetMethodNotAllowed() *AccountGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type AccountGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewAccountGetTooManyRequests() *AccountGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type AccountGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type AccountGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the account get default response

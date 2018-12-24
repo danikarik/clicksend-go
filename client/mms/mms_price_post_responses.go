@@ -94,7 +94,7 @@ func NewMMSPricePostOK() *MMSPricePostOK {
 SUCCESS
 */
 type MMSPricePostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSPricePostOK) Error() string {
@@ -121,7 +121,7 @@ func NewMMSPricePostBadRequest() *MMSPricePostBadRequest {
 BAD_REQUEST
 */
 type MMSPricePostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSPricePostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewMMSPricePostUnauthorized() *MMSPricePostUnauthorized {
 UNAUTHORIZED
 */
 type MMSPricePostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSPricePostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewMMSPricePostForbidden() *MMSPricePostForbidden {
 FORBIDDEN
 */
 type MMSPricePostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSPricePostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewMMSPricePostNotFound() *MMSPricePostNotFound {
 NOT_FOUND
 */
 type MMSPricePostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSPricePostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewMMSPricePostMethodNotAllowed() *MMSPricePostMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type MMSPricePostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSPricePostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewMMSPricePostTooManyRequests() *MMSPricePostTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type MMSPricePostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSPricePostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type MMSPricePostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Mms price post default response

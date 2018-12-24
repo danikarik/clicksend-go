@@ -94,7 +94,7 @@ func NewPostReturnAddressesPostOK() *PostReturnAddressesPostOK {
 SUCCESS
 */
 type PostReturnAddressesPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewPostReturnAddressesPostBadRequest() *PostReturnAddressesPostBadRequest {
 BAD_REQUEST
 */
 type PostReturnAddressesPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewPostReturnAddressesPostUnauthorized() *PostReturnAddressesPostUnauthoriz
 UNAUTHORIZED
 */
 type PostReturnAddressesPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewPostReturnAddressesPostForbidden() *PostReturnAddressesPostForbidden {
 FORBIDDEN
 */
 type PostReturnAddressesPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewPostReturnAddressesPostNotFound() *PostReturnAddressesPostNotFound {
 NOT_FOUND
 */
 type PostReturnAddressesPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewPostReturnAddressesPostMethodNotAllowed() *PostReturnAddressesPostMethod
 METHOD_NOT_FOUND
 */
 type PostReturnAddressesPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewPostReturnAddressesPostTooManyRequests() *PostReturnAddressesPostTooMany
 TOO_MANY_REQUESTS
 */
 type PostReturnAddressesPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type PostReturnAddressesPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the post return addresses post default response

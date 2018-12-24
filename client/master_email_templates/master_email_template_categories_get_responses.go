@@ -94,7 +94,7 @@ func NewMasterEmailTemplateCategoriesGetOK() *MasterEmailTemplateCategoriesGetOK
 SUCCESS
 */
 type MasterEmailTemplateCategoriesGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MasterEmailTemplateCategoriesGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewMasterEmailTemplateCategoriesGetBadRequest() *MasterEmailTemplateCategor
 BAD_REQUEST
 */
 type MasterEmailTemplateCategoriesGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MasterEmailTemplateCategoriesGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewMasterEmailTemplateCategoriesGetUnauthorized() *MasterEmailTemplateCateg
 UNAUTHORIZED
 */
 type MasterEmailTemplateCategoriesGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MasterEmailTemplateCategoriesGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewMasterEmailTemplateCategoriesGetForbidden() *MasterEmailTemplateCategori
 FORBIDDEN
 */
 type MasterEmailTemplateCategoriesGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MasterEmailTemplateCategoriesGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewMasterEmailTemplateCategoriesGetNotFound() *MasterEmailTemplateCategorie
 NOT_FOUND
 */
 type MasterEmailTemplateCategoriesGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MasterEmailTemplateCategoriesGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewMasterEmailTemplateCategoriesGetMethodNotAllowed() *MasterEmailTemplateC
 METHOD_NOT_FOUND
 */
 type MasterEmailTemplateCategoriesGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MasterEmailTemplateCategoriesGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewMasterEmailTemplateCategoriesGetTooManyRequests() *MasterEmailTemplateCa
 TOO_MANY_REQUESTS
 */
 type MasterEmailTemplateCategoriesGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MasterEmailTemplateCategoriesGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type MasterEmailTemplateCategoriesGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the master email template categories get default response

@@ -94,7 +94,7 @@ func NewSMSInboundAutomationDeleteOK() *SMSInboundAutomationDeleteOK {
 SUCCESS
 */
 type SMSInboundAutomationDeleteOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationDeleteOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSInboundAutomationDeleteBadRequest() *SMSInboundAutomationDeleteBadReq
 BAD_REQUEST
 */
 type SMSInboundAutomationDeleteBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationDeleteBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSInboundAutomationDeleteUnauthorized() *SMSInboundAutomationDeleteUnau
 UNAUTHORIZED
 */
 type SMSInboundAutomationDeleteUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationDeleteUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSInboundAutomationDeleteForbidden() *SMSInboundAutomationDeleteForbidd
 FORBIDDEN
 */
 type SMSInboundAutomationDeleteForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationDeleteForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSInboundAutomationDeleteNotFound() *SMSInboundAutomationDeleteNotFound
 NOT_FOUND
 */
 type SMSInboundAutomationDeleteNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationDeleteNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSInboundAutomationDeleteMethodNotAllowed() *SMSInboundAutomationDelete
 METHOD_NOT_FOUND
 */
 type SMSInboundAutomationDeleteMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationDeleteMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSInboundAutomationDeleteTooManyRequests() *SMSInboundAutomationDeleteT
 TOO_MANY_REQUESTS
 */
 type SMSInboundAutomationDeleteTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationDeleteTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSInboundAutomationDeleteDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms inbound automation delete default response

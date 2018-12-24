@@ -94,7 +94,7 @@ func NewSMSCampaignsGetOK() *SMSCampaignsGetOK {
 SUCCESS
 */
 type SMSCampaignsGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignsGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSCampaignsGetBadRequest() *SMSCampaignsGetBadRequest {
 BAD_REQUEST
 */
 type SMSCampaignsGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignsGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSCampaignsGetUnauthorized() *SMSCampaignsGetUnauthorized {
 UNAUTHORIZED
 */
 type SMSCampaignsGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignsGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSCampaignsGetForbidden() *SMSCampaignsGetForbidden {
 FORBIDDEN
 */
 type SMSCampaignsGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignsGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSCampaignsGetNotFound() *SMSCampaignsGetNotFound {
 NOT_FOUND
 */
 type SMSCampaignsGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignsGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSCampaignsGetMethodNotAllowed() *SMSCampaignsGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type SMSCampaignsGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignsGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSCampaignsGetTooManyRequests() *SMSCampaignsGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type SMSCampaignsGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignsGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSCampaignsGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms campaigns get default response

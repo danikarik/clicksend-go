@@ -94,7 +94,7 @@ func NewPostPostcardsHistoryGetOK() *PostPostcardsHistoryGetOK {
 SUCCESS
 */
 type PostPostcardsHistoryGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsHistoryGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewPostPostcardsHistoryGetBadRequest() *PostPostcardsHistoryGetBadRequest {
 BAD_REQUEST
 */
 type PostPostcardsHistoryGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsHistoryGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewPostPostcardsHistoryGetUnauthorized() *PostPostcardsHistoryGetUnauthoriz
 UNAUTHORIZED
 */
 type PostPostcardsHistoryGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsHistoryGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewPostPostcardsHistoryGetForbidden() *PostPostcardsHistoryGetForbidden {
 FORBIDDEN
 */
 type PostPostcardsHistoryGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsHistoryGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewPostPostcardsHistoryGetNotFound() *PostPostcardsHistoryGetNotFound {
 NOT_FOUND
 */
 type PostPostcardsHistoryGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsHistoryGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewPostPostcardsHistoryGetMethodNotAllowed() *PostPostcardsHistoryGetMethod
 METHOD_NOT_FOUND
 */
 type PostPostcardsHistoryGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsHistoryGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewPostPostcardsHistoryGetTooManyRequests() *PostPostcardsHistoryGetTooMany
 TOO_MANY_REQUESTS
 */
 type PostPostcardsHistoryGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsHistoryGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type PostPostcardsHistoryGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the post postcards history get default response

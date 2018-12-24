@@ -94,7 +94,7 @@ func NewVoiceDeliveryReceiptAutomationsGetOK() *VoiceDeliveryReceiptAutomationsG
 SUCCESS
 */
 type VoiceDeliveryReceiptAutomationsGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceDeliveryReceiptAutomationsGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewVoiceDeliveryReceiptAutomationsGetBadRequest() *VoiceDeliveryReceiptAuto
 BAD_REQUEST
 */
 type VoiceDeliveryReceiptAutomationsGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceDeliveryReceiptAutomationsGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewVoiceDeliveryReceiptAutomationsGetUnauthorized() *VoiceDeliveryReceiptAu
 UNAUTHORIZED
 */
 type VoiceDeliveryReceiptAutomationsGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceDeliveryReceiptAutomationsGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewVoiceDeliveryReceiptAutomationsGetForbidden() *VoiceDeliveryReceiptAutom
 FORBIDDEN
 */
 type VoiceDeliveryReceiptAutomationsGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceDeliveryReceiptAutomationsGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewVoiceDeliveryReceiptAutomationsGetNotFound() *VoiceDeliveryReceiptAutoma
 NOT_FOUND
 */
 type VoiceDeliveryReceiptAutomationsGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceDeliveryReceiptAutomationsGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewVoiceDeliveryReceiptAutomationsGetMethodNotAllowed() *VoiceDeliveryRecei
 METHOD_NOT_FOUND
 */
 type VoiceDeliveryReceiptAutomationsGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceDeliveryReceiptAutomationsGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewVoiceDeliveryReceiptAutomationsGetTooManyRequests() *VoiceDeliveryReceip
 TOO_MANY_REQUESTS
 */
 type VoiceDeliveryReceiptAutomationsGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceDeliveryReceiptAutomationsGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type VoiceDeliveryReceiptAutomationsGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the voice delivery receipt automations get default response

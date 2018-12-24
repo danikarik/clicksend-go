@@ -94,7 +94,7 @@ func NewSMSCampaignsCancelBySMSCampaignIDPutOK() *SMSCampaignsCancelBySMSCampaig
 SUCCESS
 */
 type SMSCampaignsCancelBySMSCampaignIDPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignsCancelBySMSCampaignIDPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSCampaignsCancelBySMSCampaignIDPutBadRequest() *SMSCampaignsCancelBySM
 BAD_REQUEST
 */
 type SMSCampaignsCancelBySMSCampaignIDPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignsCancelBySMSCampaignIDPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSCampaignsCancelBySMSCampaignIDPutUnauthorized() *SMSCampaignsCancelBy
 UNAUTHORIZED
 */
 type SMSCampaignsCancelBySMSCampaignIDPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignsCancelBySMSCampaignIDPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSCampaignsCancelBySMSCampaignIDPutForbidden() *SMSCampaignsCancelBySMS
 FORBIDDEN
 */
 type SMSCampaignsCancelBySMSCampaignIDPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignsCancelBySMSCampaignIDPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSCampaignsCancelBySMSCampaignIDPutNotFound() *SMSCampaignsCancelBySMSC
 NOT_FOUND
 */
 type SMSCampaignsCancelBySMSCampaignIDPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignsCancelBySMSCampaignIDPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSCampaignsCancelBySMSCampaignIDPutMethodNotAllowed() *SMSCampaignsCanc
 METHOD_NOT_FOUND
 */
 type SMSCampaignsCancelBySMSCampaignIDPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignsCancelBySMSCampaignIDPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSCampaignsCancelBySMSCampaignIDPutTooManyRequests() *SMSCampaignsCance
 TOO_MANY_REQUESTS
 */
 type SMSCampaignsCancelBySMSCampaignIDPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignsCancelBySMSCampaignIDPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSCampaignsCancelBySMSCampaignIDPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms campaigns cancel by Sms campaign Id put default response

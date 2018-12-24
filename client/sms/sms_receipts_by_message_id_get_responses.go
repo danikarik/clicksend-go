@@ -94,7 +94,7 @@ func NewSMSReceiptsByMessageIDGetOK() *SMSReceiptsByMessageIDGetOK {
 SUCCESS
 */
 type SMSReceiptsByMessageIDGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsByMessageIDGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSReceiptsByMessageIDGetBadRequest() *SMSReceiptsByMessageIDGetBadReque
 BAD_REQUEST
 */
 type SMSReceiptsByMessageIDGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsByMessageIDGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSReceiptsByMessageIDGetUnauthorized() *SMSReceiptsByMessageIDGetUnauth
 UNAUTHORIZED
 */
 type SMSReceiptsByMessageIDGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsByMessageIDGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSReceiptsByMessageIDGetForbidden() *SMSReceiptsByMessageIDGetForbidden
 FORBIDDEN
 */
 type SMSReceiptsByMessageIDGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsByMessageIDGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSReceiptsByMessageIDGetNotFound() *SMSReceiptsByMessageIDGetNotFound {
 NOT_FOUND
 */
 type SMSReceiptsByMessageIDGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsByMessageIDGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSReceiptsByMessageIDGetMethodNotAllowed() *SMSReceiptsByMessageIDGetMe
 METHOD_NOT_FOUND
 */
 type SMSReceiptsByMessageIDGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsByMessageIDGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSReceiptsByMessageIDGetTooManyRequests() *SMSReceiptsByMessageIDGetToo
 TOO_MANY_REQUESTS
 */
 type SMSReceiptsByMessageIDGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsByMessageIDGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSReceiptsByMessageIDGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms receipts by message Id get default response

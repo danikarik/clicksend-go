@@ -94,7 +94,7 @@ func NewSMSInboundReadByMessageIDPutOK() *SMSInboundReadByMessageIDPutOK {
 SUCCESS
 */
 type SMSInboundReadByMessageIDPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundReadByMessageIDPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSInboundReadByMessageIDPutBadRequest() *SMSInboundReadByMessageIDPutBa
 BAD_REQUEST
 */
 type SMSInboundReadByMessageIDPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundReadByMessageIDPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSInboundReadByMessageIDPutUnauthorized() *SMSInboundReadByMessageIDPut
 UNAUTHORIZED
 */
 type SMSInboundReadByMessageIDPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundReadByMessageIDPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSInboundReadByMessageIDPutForbidden() *SMSInboundReadByMessageIDPutFor
 FORBIDDEN
 */
 type SMSInboundReadByMessageIDPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundReadByMessageIDPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSInboundReadByMessageIDPutNotFound() *SMSInboundReadByMessageIDPutNotF
 NOT_FOUND
 */
 type SMSInboundReadByMessageIDPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundReadByMessageIDPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSInboundReadByMessageIDPutMethodNotAllowed() *SMSInboundReadByMessageI
 METHOD_NOT_FOUND
 */
 type SMSInboundReadByMessageIDPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundReadByMessageIDPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSInboundReadByMessageIDPutTooManyRequests() *SMSInboundReadByMessageID
 TOO_MANY_REQUESTS
 */
 type SMSInboundReadByMessageIDPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundReadByMessageIDPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSInboundReadByMessageIDPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms inbound read by message Id put default response

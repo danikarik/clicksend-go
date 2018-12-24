@@ -94,7 +94,7 @@ func NewNumbersSearchByCountryGetOK() *NumbersSearchByCountryGetOK {
 SUCCESS
 */
 type NumbersSearchByCountryGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersSearchByCountryGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewNumbersSearchByCountryGetBadRequest() *NumbersSearchByCountryGetBadReque
 BAD_REQUEST
 */
 type NumbersSearchByCountryGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersSearchByCountryGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewNumbersSearchByCountryGetUnauthorized() *NumbersSearchByCountryGetUnauth
 UNAUTHORIZED
 */
 type NumbersSearchByCountryGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersSearchByCountryGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewNumbersSearchByCountryGetForbidden() *NumbersSearchByCountryGetForbidden
 FORBIDDEN
 */
 type NumbersSearchByCountryGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersSearchByCountryGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewNumbersSearchByCountryGetNotFound() *NumbersSearchByCountryGetNotFound {
 NOT_FOUND
 */
 type NumbersSearchByCountryGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersSearchByCountryGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewNumbersSearchByCountryGetMethodNotAllowed() *NumbersSearchByCountryGetMe
 METHOD_NOT_FOUND
 */
 type NumbersSearchByCountryGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersSearchByCountryGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewNumbersSearchByCountryGetTooManyRequests() *NumbersSearchByCountryGetToo
 TOO_MANY_REQUESTS
 */
 type NumbersSearchByCountryGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersSearchByCountryGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type NumbersSearchByCountryGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the numbers search by country get default response

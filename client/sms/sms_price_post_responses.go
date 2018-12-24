@@ -94,7 +94,7 @@ func NewSMSPricePostOK() *SMSPricePostOK {
 SUCCESS
 */
 type SMSPricePostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSPricePostOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSPricePostBadRequest() *SMSPricePostBadRequest {
 BAD_REQUEST
 */
 type SMSPricePostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSPricePostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSPricePostUnauthorized() *SMSPricePostUnauthorized {
 UNAUTHORIZED
 */
 type SMSPricePostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSPricePostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSPricePostForbidden() *SMSPricePostForbidden {
 FORBIDDEN
 */
 type SMSPricePostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSPricePostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSPricePostNotFound() *SMSPricePostNotFound {
 NOT_FOUND
 */
 type SMSPricePostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSPricePostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSPricePostMethodNotAllowed() *SMSPricePostMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type SMSPricePostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSPricePostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSPricePostTooManyRequests() *SMSPricePostTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type SMSPricePostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSPricePostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSPricePostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms price post default response

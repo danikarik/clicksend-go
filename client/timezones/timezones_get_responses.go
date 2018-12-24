@@ -94,7 +94,7 @@ func NewTimezonesGetOK() *TimezonesGetOK {
 SUCCESS
 */
 type TimezonesGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *TimezonesGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewTimezonesGetBadRequest() *TimezonesGetBadRequest {
 BAD_REQUEST
 */
 type TimezonesGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *TimezonesGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewTimezonesGetUnauthorized() *TimezonesGetUnauthorized {
 UNAUTHORIZED
 */
 type TimezonesGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *TimezonesGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewTimezonesGetForbidden() *TimezonesGetForbidden {
 FORBIDDEN
 */
 type TimezonesGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *TimezonesGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewTimezonesGetNotFound() *TimezonesGetNotFound {
 NOT_FOUND
 */
 type TimezonesGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *TimezonesGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewTimezonesGetMethodNotAllowed() *TimezonesGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type TimezonesGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *TimezonesGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewTimezonesGetTooManyRequests() *TimezonesGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type TimezonesGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *TimezonesGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type TimezonesGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the timezones get default response

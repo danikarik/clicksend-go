@@ -94,7 +94,7 @@ func NewSMSEmailSMSStrippedStringGetOK() *SMSEmailSMSStrippedStringGetOK {
 SUCCESS
 */
 type SMSEmailSMSStrippedStringGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSStrippedStringGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSEmailSMSStrippedStringGetBadRequest() *SMSEmailSMSStrippedStringGetBa
 BAD_REQUEST
 */
 type SMSEmailSMSStrippedStringGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSStrippedStringGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSEmailSMSStrippedStringGetUnauthorized() *SMSEmailSMSStrippedStringGet
 UNAUTHORIZED
 */
 type SMSEmailSMSStrippedStringGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSStrippedStringGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSEmailSMSStrippedStringGetForbidden() *SMSEmailSMSStrippedStringGetFor
 FORBIDDEN
 */
 type SMSEmailSMSStrippedStringGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSStrippedStringGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSEmailSMSStrippedStringGetNotFound() *SMSEmailSMSStrippedStringGetNotF
 NOT_FOUND
 */
 type SMSEmailSMSStrippedStringGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSStrippedStringGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSEmailSMSStrippedStringGetMethodNotAllowed() *SMSEmailSMSStrippedStrin
 METHOD_NOT_FOUND
 */
 type SMSEmailSMSStrippedStringGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSStrippedStringGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSEmailSMSStrippedStringGetTooManyRequests() *SMSEmailSMSStrippedString
 TOO_MANY_REQUESTS
 */
 type SMSEmailSMSStrippedStringGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSStrippedStringGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSEmailSMSStrippedStringGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms email Sms stripped string get default response

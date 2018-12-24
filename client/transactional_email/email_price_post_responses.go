@@ -94,7 +94,7 @@ func NewEmailPricePostOK() *EmailPricePostOK {
 SUCCESS
 */
 type EmailPricePostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailPricePostOK) Error() string {
@@ -121,7 +121,7 @@ func NewEmailPricePostBadRequest() *EmailPricePostBadRequest {
 BAD_REQUEST
 */
 type EmailPricePostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailPricePostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewEmailPricePostUnauthorized() *EmailPricePostUnauthorized {
 UNAUTHORIZED
 */
 type EmailPricePostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailPricePostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewEmailPricePostForbidden() *EmailPricePostForbidden {
 FORBIDDEN
 */
 type EmailPricePostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailPricePostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewEmailPricePostNotFound() *EmailPricePostNotFound {
 NOT_FOUND
 */
 type EmailPricePostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailPricePostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewEmailPricePostMethodNotAllowed() *EmailPricePostMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type EmailPricePostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailPricePostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewEmailPricePostTooManyRequests() *EmailPricePostTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type EmailPricePostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailPricePostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type EmailPricePostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the email price post default response

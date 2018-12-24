@@ -94,7 +94,7 @@ func NewFAXDeliveryReceiptAutomationGetOK() *FAXDeliveryReceiptAutomationGetOK {
 SUCCESS
 */
 type FAXDeliveryReceiptAutomationGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXDeliveryReceiptAutomationGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewFAXDeliveryReceiptAutomationGetBadRequest() *FAXDeliveryReceiptAutomatio
 BAD_REQUEST
 */
 type FAXDeliveryReceiptAutomationGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXDeliveryReceiptAutomationGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewFAXDeliveryReceiptAutomationGetUnauthorized() *FAXDeliveryReceiptAutomat
 UNAUTHORIZED
 */
 type FAXDeliveryReceiptAutomationGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXDeliveryReceiptAutomationGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewFAXDeliveryReceiptAutomationGetForbidden() *FAXDeliveryReceiptAutomation
 FORBIDDEN
 */
 type FAXDeliveryReceiptAutomationGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXDeliveryReceiptAutomationGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewFAXDeliveryReceiptAutomationGetNotFound() *FAXDeliveryReceiptAutomationG
 NOT_FOUND
 */
 type FAXDeliveryReceiptAutomationGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXDeliveryReceiptAutomationGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewFAXDeliveryReceiptAutomationGetMethodNotAllowed() *FAXDeliveryReceiptAut
 METHOD_NOT_FOUND
 */
 type FAXDeliveryReceiptAutomationGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXDeliveryReceiptAutomationGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewFAXDeliveryReceiptAutomationGetTooManyRequests() *FAXDeliveryReceiptAuto
 TOO_MANY_REQUESTS
 */
 type FAXDeliveryReceiptAutomationGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXDeliveryReceiptAutomationGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type FAXDeliveryReceiptAutomationGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Fax delivery receipt automation get default response

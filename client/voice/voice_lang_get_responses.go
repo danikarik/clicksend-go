@@ -94,7 +94,7 @@ func NewVoiceLangGetOK() *VoiceLangGetOK {
 SUCCESS
 */
 type VoiceLangGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceLangGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewVoiceLangGetBadRequest() *VoiceLangGetBadRequest {
 BAD_REQUEST
 */
 type VoiceLangGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceLangGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewVoiceLangGetUnauthorized() *VoiceLangGetUnauthorized {
 UNAUTHORIZED
 */
 type VoiceLangGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceLangGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewVoiceLangGetForbidden() *VoiceLangGetForbidden {
 FORBIDDEN
 */
 type VoiceLangGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceLangGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewVoiceLangGetNotFound() *VoiceLangGetNotFound {
 NOT_FOUND
 */
 type VoiceLangGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceLangGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewVoiceLangGetMethodNotAllowed() *VoiceLangGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type VoiceLangGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceLangGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewVoiceLangGetTooManyRequests() *VoiceLangGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type VoiceLangGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceLangGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type VoiceLangGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the voice lang get default response

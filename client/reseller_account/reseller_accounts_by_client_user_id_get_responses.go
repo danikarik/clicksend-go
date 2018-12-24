@@ -94,7 +94,7 @@ func NewResellerAccountsByClientUserIDGetOK() *ResellerAccountsByClientUserIDGet
 SUCCESS
 */
 type ResellerAccountsByClientUserIDGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsByClientUserIDGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewResellerAccountsByClientUserIDGetBadRequest() *ResellerAccountsByClientU
 BAD_REQUEST
 */
 type ResellerAccountsByClientUserIDGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsByClientUserIDGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewResellerAccountsByClientUserIDGetUnauthorized() *ResellerAccountsByClien
 UNAUTHORIZED
 */
 type ResellerAccountsByClientUserIDGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsByClientUserIDGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewResellerAccountsByClientUserIDGetForbidden() *ResellerAccountsByClientUs
 FORBIDDEN
 */
 type ResellerAccountsByClientUserIDGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsByClientUserIDGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewResellerAccountsByClientUserIDGetNotFound() *ResellerAccountsByClientUse
 NOT_FOUND
 */
 type ResellerAccountsByClientUserIDGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsByClientUserIDGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewResellerAccountsByClientUserIDGetMethodNotAllowed() *ResellerAccountsByC
 METHOD_NOT_FOUND
 */
 type ResellerAccountsByClientUserIDGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsByClientUserIDGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewResellerAccountsByClientUserIDGetTooManyRequests() *ResellerAccountsByCl
 TOO_MANY_REQUESTS
 */
 type ResellerAccountsByClientUserIDGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsByClientUserIDGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ResellerAccountsByClientUserIDGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the reseller accounts by client user Id get default response

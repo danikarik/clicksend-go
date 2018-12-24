@@ -94,7 +94,7 @@ func NewVoiceReceiptsReadPutOK() *VoiceReceiptsReadPutOK {
 SUCCESS
 */
 type VoiceReceiptsReadPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceReceiptsReadPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewVoiceReceiptsReadPutBadRequest() *VoiceReceiptsReadPutBadRequest {
 BAD_REQUEST
 */
 type VoiceReceiptsReadPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceReceiptsReadPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewVoiceReceiptsReadPutUnauthorized() *VoiceReceiptsReadPutUnauthorized {
 UNAUTHORIZED
 */
 type VoiceReceiptsReadPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceReceiptsReadPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewVoiceReceiptsReadPutForbidden() *VoiceReceiptsReadPutForbidden {
 FORBIDDEN
 */
 type VoiceReceiptsReadPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceReceiptsReadPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewVoiceReceiptsReadPutNotFound() *VoiceReceiptsReadPutNotFound {
 NOT_FOUND
 */
 type VoiceReceiptsReadPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceReceiptsReadPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewVoiceReceiptsReadPutMethodNotAllowed() *VoiceReceiptsReadPutMethodNotAll
 METHOD_NOT_FOUND
 */
 type VoiceReceiptsReadPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceReceiptsReadPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewVoiceReceiptsReadPutTooManyRequests() *VoiceReceiptsReadPutTooManyReques
 TOO_MANY_REQUESTS
 */
 type VoiceReceiptsReadPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceReceiptsReadPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type VoiceReceiptsReadPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the voice receipts read put default response

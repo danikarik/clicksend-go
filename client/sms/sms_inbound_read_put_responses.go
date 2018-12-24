@@ -94,7 +94,7 @@ func NewSMSInboundReadPutOK() *SMSInboundReadPutOK {
 SUCCESS
 */
 type SMSInboundReadPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundReadPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSInboundReadPutBadRequest() *SMSInboundReadPutBadRequest {
 BAD_REQUEST
 */
 type SMSInboundReadPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundReadPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSInboundReadPutUnauthorized() *SMSInboundReadPutUnauthorized {
 UNAUTHORIZED
 */
 type SMSInboundReadPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundReadPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSInboundReadPutForbidden() *SMSInboundReadPutForbidden {
 FORBIDDEN
 */
 type SMSInboundReadPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundReadPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSInboundReadPutNotFound() *SMSInboundReadPutNotFound {
 NOT_FOUND
 */
 type SMSInboundReadPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundReadPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSInboundReadPutMethodNotAllowed() *SMSInboundReadPutMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type SMSInboundReadPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundReadPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSInboundReadPutTooManyRequests() *SMSInboundReadPutTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type SMSInboundReadPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundReadPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSInboundReadPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms inbound read put default response

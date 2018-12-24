@@ -94,7 +94,7 @@ func NewForgotPasswordPutOK() *ForgotPasswordPutOK {
 SUCCESS
 */
 type ForgotPasswordPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotPasswordPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewForgotPasswordPutBadRequest() *ForgotPasswordPutBadRequest {
 BAD_REQUEST
 */
 type ForgotPasswordPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotPasswordPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewForgotPasswordPutUnauthorized() *ForgotPasswordPutUnauthorized {
 UNAUTHORIZED
 */
 type ForgotPasswordPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotPasswordPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewForgotPasswordPutForbidden() *ForgotPasswordPutForbidden {
 FORBIDDEN
 */
 type ForgotPasswordPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotPasswordPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewForgotPasswordPutNotFound() *ForgotPasswordPutNotFound {
 NOT_FOUND
 */
 type ForgotPasswordPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotPasswordPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewForgotPasswordPutMethodNotAllowed() *ForgotPasswordPutMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type ForgotPasswordPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotPasswordPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewForgotPasswordPutTooManyRequests() *ForgotPasswordPutTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type ForgotPasswordPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotPasswordPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ForgotPasswordPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the forgot password put default response

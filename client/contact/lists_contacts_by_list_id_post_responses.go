@@ -94,7 +94,7 @@ func NewListsContactsByListIDPostOK() *ListsContactsByListIDPostOK {
 SUCCESS
 */
 type ListsContactsByListIDPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewListsContactsByListIDPostBadRequest() *ListsContactsByListIDPostBadReque
 BAD_REQUEST
 */
 type ListsContactsByListIDPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewListsContactsByListIDPostUnauthorized() *ListsContactsByListIDPostUnauth
 UNAUTHORIZED
 */
 type ListsContactsByListIDPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewListsContactsByListIDPostForbidden() *ListsContactsByListIDPostForbidden
 FORBIDDEN
 */
 type ListsContactsByListIDPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewListsContactsByListIDPostNotFound() *ListsContactsByListIDPostNotFound {
 NOT_FOUND
 */
 type ListsContactsByListIDPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewListsContactsByListIDPostMethodNotAllowed() *ListsContactsByListIDPostMe
 METHOD_NOT_FOUND
 */
 type ListsContactsByListIDPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewListsContactsByListIDPostTooManyRequests() *ListsContactsByListIDPostToo
 TOO_MANY_REQUESTS
 */
 type ListsContactsByListIDPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ListsContactsByListIDPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the lists contacts by list Id post default response

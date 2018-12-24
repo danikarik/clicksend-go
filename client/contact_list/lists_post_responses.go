@@ -94,7 +94,7 @@ func NewListsPostOK() *ListsPostOK {
 SUCCESS
 */
 type ListsPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewListsPostBadRequest() *ListsPostBadRequest {
 BAD_REQUEST
 */
 type ListsPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewListsPostUnauthorized() *ListsPostUnauthorized {
 UNAUTHORIZED
 */
 type ListsPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewListsPostForbidden() *ListsPostForbidden {
 FORBIDDEN
 */
 type ListsPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewListsPostNotFound() *ListsPostNotFound {
 NOT_FOUND
 */
 type ListsPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewListsPostMethodNotAllowed() *ListsPostMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type ListsPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewListsPostTooManyRequests() *ListsPostTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type ListsPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ListsPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the lists post default response

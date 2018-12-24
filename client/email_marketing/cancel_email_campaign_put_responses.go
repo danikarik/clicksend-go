@@ -94,7 +94,7 @@ func NewCancelEmailCampaignPutOK() *CancelEmailCampaignPutOK {
 SUCCESS
 */
 type CancelEmailCampaignPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *CancelEmailCampaignPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewCancelEmailCampaignPutBadRequest() *CancelEmailCampaignPutBadRequest {
 BAD_REQUEST
 */
 type CancelEmailCampaignPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *CancelEmailCampaignPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewCancelEmailCampaignPutUnauthorized() *CancelEmailCampaignPutUnauthorized
 UNAUTHORIZED
 */
 type CancelEmailCampaignPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *CancelEmailCampaignPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewCancelEmailCampaignPutForbidden() *CancelEmailCampaignPutForbidden {
 FORBIDDEN
 */
 type CancelEmailCampaignPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *CancelEmailCampaignPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewCancelEmailCampaignPutNotFound() *CancelEmailCampaignPutNotFound {
 NOT_FOUND
 */
 type CancelEmailCampaignPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *CancelEmailCampaignPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewCancelEmailCampaignPutMethodNotAllowed() *CancelEmailCampaignPutMethodNo
 METHOD_NOT_FOUND
 */
 type CancelEmailCampaignPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *CancelEmailCampaignPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewCancelEmailCampaignPutTooManyRequests() *CancelEmailCampaignPutTooManyRe
 TOO_MANY_REQUESTS
 */
 type CancelEmailCampaignPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *CancelEmailCampaignPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type CancelEmailCampaignPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the cancel email campaign put default response

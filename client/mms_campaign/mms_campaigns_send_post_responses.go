@@ -94,7 +94,7 @@ func NewMMSCampaignsSendPostOK() *MMSCampaignsSendPostOK {
 SUCCESS
 */
 type MMSCampaignsSendPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsSendPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewMMSCampaignsSendPostBadRequest() *MMSCampaignsSendPostBadRequest {
 BAD_REQUEST
 */
 type MMSCampaignsSendPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsSendPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewMMSCampaignsSendPostUnauthorized() *MMSCampaignsSendPostUnauthorized {
 UNAUTHORIZED
 */
 type MMSCampaignsSendPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsSendPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewMMSCampaignsSendPostForbidden() *MMSCampaignsSendPostForbidden {
 FORBIDDEN
 */
 type MMSCampaignsSendPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsSendPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewMMSCampaignsSendPostNotFound() *MMSCampaignsSendPostNotFound {
 NOT_FOUND
 */
 type MMSCampaignsSendPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsSendPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewMMSCampaignsSendPostMethodNotAllowed() *MMSCampaignsSendPostMethodNotAll
 METHOD_NOT_FOUND
 */
 type MMSCampaignsSendPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsSendPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewMMSCampaignsSendPostTooManyRequests() *MMSCampaignsSendPostTooManyReques
 TOO_MANY_REQUESTS
 */
 type MMSCampaignsSendPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsSendPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type MMSCampaignsSendPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Mms campaigns send post default response

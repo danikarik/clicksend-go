@@ -94,7 +94,7 @@ func NewVoiceCancelByMessageIDPutOK() *VoiceCancelByMessageIDPutOK {
 SUCCESS
 */
 type VoiceCancelByMessageIDPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceCancelByMessageIDPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewVoiceCancelByMessageIDPutBadRequest() *VoiceCancelByMessageIDPutBadReque
 BAD_REQUEST
 */
 type VoiceCancelByMessageIDPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceCancelByMessageIDPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewVoiceCancelByMessageIDPutUnauthorized() *VoiceCancelByMessageIDPutUnauth
 UNAUTHORIZED
 */
 type VoiceCancelByMessageIDPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceCancelByMessageIDPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewVoiceCancelByMessageIDPutForbidden() *VoiceCancelByMessageIDPutForbidden
 FORBIDDEN
 */
 type VoiceCancelByMessageIDPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceCancelByMessageIDPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewVoiceCancelByMessageIDPutNotFound() *VoiceCancelByMessageIDPutNotFound {
 NOT_FOUND
 */
 type VoiceCancelByMessageIDPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceCancelByMessageIDPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewVoiceCancelByMessageIDPutMethodNotAllowed() *VoiceCancelByMessageIDPutMe
 METHOD_NOT_FOUND
 */
 type VoiceCancelByMessageIDPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceCancelByMessageIDPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewVoiceCancelByMessageIDPutTooManyRequests() *VoiceCancelByMessageIDPutToo
 TOO_MANY_REQUESTS
 */
 type VoiceCancelByMessageIDPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceCancelByMessageIDPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type VoiceCancelByMessageIDPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the voice cancel by message Id put default response

@@ -94,7 +94,7 @@ func NewVoiceSendPostOK() *VoiceSendPostOK {
 SUCCESS
 */
 type VoiceSendPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceSendPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewVoiceSendPostBadRequest() *VoiceSendPostBadRequest {
 BAD_REQUEST
 */
 type VoiceSendPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceSendPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewVoiceSendPostUnauthorized() *VoiceSendPostUnauthorized {
 UNAUTHORIZED
 */
 type VoiceSendPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceSendPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewVoiceSendPostForbidden() *VoiceSendPostForbidden {
 FORBIDDEN
 */
 type VoiceSendPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceSendPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewVoiceSendPostNotFound() *VoiceSendPostNotFound {
 NOT_FOUND
 */
 type VoiceSendPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceSendPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewVoiceSendPostMethodNotAllowed() *VoiceSendPostMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type VoiceSendPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceSendPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewVoiceSendPostTooManyRequests() *VoiceSendPostTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type VoiceSendPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceSendPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type VoiceSendPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the voice send post default response

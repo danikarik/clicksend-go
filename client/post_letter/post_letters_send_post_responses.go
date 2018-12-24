@@ -94,7 +94,7 @@ func NewPostLettersSendPostOK() *PostLettersSendPostOK {
 SUCCESS
 */
 type PostLettersSendPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersSendPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewPostLettersSendPostBadRequest() *PostLettersSendPostBadRequest {
 BAD_REQUEST
 */
 type PostLettersSendPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersSendPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewPostLettersSendPostUnauthorized() *PostLettersSendPostUnauthorized {
 UNAUTHORIZED
 */
 type PostLettersSendPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersSendPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewPostLettersSendPostForbidden() *PostLettersSendPostForbidden {
 FORBIDDEN
 */
 type PostLettersSendPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersSendPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewPostLettersSendPostNotFound() *PostLettersSendPostNotFound {
 NOT_FOUND
 */
 type PostLettersSendPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersSendPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewPostLettersSendPostMethodNotAllowed() *PostLettersSendPostMethodNotAllow
 METHOD_NOT_FOUND
 */
 type PostLettersSendPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersSendPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewPostLettersSendPostTooManyRequests() *PostLettersSendPostTooManyRequests
 TOO_MANY_REQUESTS
 */
 type PostLettersSendPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersSendPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type PostLettersSendPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the post letters send post default response

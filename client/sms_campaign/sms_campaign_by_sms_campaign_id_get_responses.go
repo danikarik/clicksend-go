@@ -94,7 +94,7 @@ func NewSMSCampaignBySMSCampaignIDGetOK() *SMSCampaignBySMSCampaignIDGetOK {
 SUCCESS
 */
 type SMSCampaignBySMSCampaignIDGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignBySMSCampaignIDGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSCampaignBySMSCampaignIDGetBadRequest() *SMSCampaignBySMSCampaignIDGet
 BAD_REQUEST
 */
 type SMSCampaignBySMSCampaignIDGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignBySMSCampaignIDGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSCampaignBySMSCampaignIDGetUnauthorized() *SMSCampaignBySMSCampaignIDG
 UNAUTHORIZED
 */
 type SMSCampaignBySMSCampaignIDGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignBySMSCampaignIDGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSCampaignBySMSCampaignIDGetForbidden() *SMSCampaignBySMSCampaignIDGetF
 FORBIDDEN
 */
 type SMSCampaignBySMSCampaignIDGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignBySMSCampaignIDGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSCampaignBySMSCampaignIDGetNotFound() *SMSCampaignBySMSCampaignIDGetNo
 NOT_FOUND
 */
 type SMSCampaignBySMSCampaignIDGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignBySMSCampaignIDGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSCampaignBySMSCampaignIDGetMethodNotAllowed() *SMSCampaignBySMSCampaig
 METHOD_NOT_FOUND
 */
 type SMSCampaignBySMSCampaignIDGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignBySMSCampaignIDGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSCampaignBySMSCampaignIDGetTooManyRequests() *SMSCampaignBySMSCampaign
 TOO_MANY_REQUESTS
 */
 type SMSCampaignBySMSCampaignIDGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCampaignBySMSCampaignIDGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSCampaignBySMSCampaignIDGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms campaign by Sms campaign Id get default response

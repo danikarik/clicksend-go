@@ -94,7 +94,7 @@ func NewForgotUsernamePutOK() *ForgotUsernamePutOK {
 SUCCESS
 */
 type ForgotUsernamePutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotUsernamePutOK) Error() string {
@@ -121,7 +121,7 @@ func NewForgotUsernamePutBadRequest() *ForgotUsernamePutBadRequest {
 BAD_REQUEST
 */
 type ForgotUsernamePutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotUsernamePutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewForgotUsernamePutUnauthorized() *ForgotUsernamePutUnauthorized {
 UNAUTHORIZED
 */
 type ForgotUsernamePutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotUsernamePutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewForgotUsernamePutForbidden() *ForgotUsernamePutForbidden {
 FORBIDDEN
 */
 type ForgotUsernamePutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotUsernamePutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewForgotUsernamePutNotFound() *ForgotUsernamePutNotFound {
 NOT_FOUND
 */
 type ForgotUsernamePutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotUsernamePutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewForgotUsernamePutMethodNotAllowed() *ForgotUsernamePutMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type ForgotUsernamePutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotUsernamePutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewForgotUsernamePutTooManyRequests() *ForgotUsernamePutTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type ForgotUsernamePutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotUsernamePutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ForgotUsernamePutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the forgot username put default response

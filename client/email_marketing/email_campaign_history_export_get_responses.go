@@ -94,7 +94,7 @@ func NewEmailCampaignHistoryExportGetOK() *EmailCampaignHistoryExportGetOK {
 SUCCESS
 */
 type EmailCampaignHistoryExportGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignHistoryExportGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewEmailCampaignHistoryExportGetBadRequest() *EmailCampaignHistoryExportGet
 BAD_REQUEST
 */
 type EmailCampaignHistoryExportGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignHistoryExportGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewEmailCampaignHistoryExportGetUnauthorized() *EmailCampaignHistoryExportG
 UNAUTHORIZED
 */
 type EmailCampaignHistoryExportGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignHistoryExportGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewEmailCampaignHistoryExportGetForbidden() *EmailCampaignHistoryExportGetF
 FORBIDDEN
 */
 type EmailCampaignHistoryExportGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignHistoryExportGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewEmailCampaignHistoryExportGetNotFound() *EmailCampaignHistoryExportGetNo
 NOT_FOUND
 */
 type EmailCampaignHistoryExportGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignHistoryExportGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewEmailCampaignHistoryExportGetMethodNotAllowed() *EmailCampaignHistoryExp
 METHOD_NOT_FOUND
 */
 type EmailCampaignHistoryExportGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignHistoryExportGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewEmailCampaignHistoryExportGetTooManyRequests() *EmailCampaignHistoryExpo
 TOO_MANY_REQUESTS
 */
 type EmailCampaignHistoryExportGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignHistoryExportGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type EmailCampaignHistoryExportGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the email campaign history export get default response

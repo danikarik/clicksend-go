@@ -94,7 +94,7 @@ func NewMMSSendPostOK() *MMSSendPostOK {
 SUCCESS
 */
 type MMSSendPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSSendPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewMMSSendPostBadRequest() *MMSSendPostBadRequest {
 BAD_REQUEST
 */
 type MMSSendPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSSendPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewMMSSendPostUnauthorized() *MMSSendPostUnauthorized {
 UNAUTHORIZED
 */
 type MMSSendPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSSendPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewMMSSendPostForbidden() *MMSSendPostForbidden {
 FORBIDDEN
 */
 type MMSSendPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSSendPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewMMSSendPostNotFound() *MMSSendPostNotFound {
 NOT_FOUND
 */
 type MMSSendPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSSendPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewMMSSendPostMethodNotAllowed() *MMSSendPostMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type MMSSendPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSSendPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewMMSSendPostTooManyRequests() *MMSSendPostTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type MMSSendPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSSendPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type MMSSendPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Mms send post default response

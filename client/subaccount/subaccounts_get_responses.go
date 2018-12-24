@@ -94,7 +94,7 @@ func NewSubaccountsGetOK() *SubaccountsGetOK {
 SUCCESS
 */
 type SubaccountsGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewSubaccountsGetBadRequest() *SubaccountsGetBadRequest {
 BAD_REQUEST
 */
 type SubaccountsGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSubaccountsGetUnauthorized() *SubaccountsGetUnauthorized {
 UNAUTHORIZED
 */
 type SubaccountsGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSubaccountsGetForbidden() *SubaccountsGetForbidden {
 FORBIDDEN
 */
 type SubaccountsGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSubaccountsGetNotFound() *SubaccountsGetNotFound {
 NOT_FOUND
 */
 type SubaccountsGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSubaccountsGetMethodNotAllowed() *SubaccountsGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type SubaccountsGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSubaccountsGetTooManyRequests() *SubaccountsGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type SubaccountsGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SubaccountsGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the subaccounts get default response

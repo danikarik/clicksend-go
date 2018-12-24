@@ -94,7 +94,7 @@ func NewAccountPostOK() *AccountPostOK {
 SUCCESS
 */
 type AccountPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewAccountPostBadRequest() *AccountPostBadRequest {
 BAD_REQUEST
 */
 type AccountPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewAccountPostUnauthorized() *AccountPostUnauthorized {
 UNAUTHORIZED
 */
 type AccountPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewAccountPostForbidden() *AccountPostForbidden {
 FORBIDDEN
 */
 type AccountPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewAccountPostNotFound() *AccountPostNotFound {
 NOT_FOUND
 */
 type AccountPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewAccountPostMethodNotAllowed() *AccountPostMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type AccountPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewAccountPostTooManyRequests() *AccountPostTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type AccountPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type AccountPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the account post default response

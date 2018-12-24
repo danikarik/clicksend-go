@@ -94,7 +94,7 @@ func NewVoiceDeliveryReceiptAutomationDeleteOK() *VoiceDeliveryReceiptAutomation
 SUCCESS
 */
 type VoiceDeliveryReceiptAutomationDeleteOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceDeliveryReceiptAutomationDeleteOK) Error() string {
@@ -121,7 +121,7 @@ func NewVoiceDeliveryReceiptAutomationDeleteBadRequest() *VoiceDeliveryReceiptAu
 BAD_REQUEST
 */
 type VoiceDeliveryReceiptAutomationDeleteBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceDeliveryReceiptAutomationDeleteBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewVoiceDeliveryReceiptAutomationDeleteUnauthorized() *VoiceDeliveryReceipt
 UNAUTHORIZED
 */
 type VoiceDeliveryReceiptAutomationDeleteUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceDeliveryReceiptAutomationDeleteUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewVoiceDeliveryReceiptAutomationDeleteForbidden() *VoiceDeliveryReceiptAut
 FORBIDDEN
 */
 type VoiceDeliveryReceiptAutomationDeleteForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceDeliveryReceiptAutomationDeleteForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewVoiceDeliveryReceiptAutomationDeleteNotFound() *VoiceDeliveryReceiptAuto
 NOT_FOUND
 */
 type VoiceDeliveryReceiptAutomationDeleteNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceDeliveryReceiptAutomationDeleteNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewVoiceDeliveryReceiptAutomationDeleteMethodNotAllowed() *VoiceDeliveryRec
 METHOD_NOT_FOUND
 */
 type VoiceDeliveryReceiptAutomationDeleteMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceDeliveryReceiptAutomationDeleteMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewVoiceDeliveryReceiptAutomationDeleteTooManyRequests() *VoiceDeliveryRece
 TOO_MANY_REQUESTS
 */
 type VoiceDeliveryReceiptAutomationDeleteTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceDeliveryReceiptAutomationDeleteTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type VoiceDeliveryReceiptAutomationDeleteDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the voice delivery receipt automation delete default response

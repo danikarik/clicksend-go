@@ -94,7 +94,7 @@ func NewVoiceHistoryExportGetOK() *VoiceHistoryExportGetOK {
 SUCCESS
 */
 type VoiceHistoryExportGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceHistoryExportGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewVoiceHistoryExportGetBadRequest() *VoiceHistoryExportGetBadRequest {
 BAD_REQUEST
 */
 type VoiceHistoryExportGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceHistoryExportGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewVoiceHistoryExportGetUnauthorized() *VoiceHistoryExportGetUnauthorized {
 UNAUTHORIZED
 */
 type VoiceHistoryExportGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceHistoryExportGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewVoiceHistoryExportGetForbidden() *VoiceHistoryExportGetForbidden {
 FORBIDDEN
 */
 type VoiceHistoryExportGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceHistoryExportGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewVoiceHistoryExportGetNotFound() *VoiceHistoryExportGetNotFound {
 NOT_FOUND
 */
 type VoiceHistoryExportGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceHistoryExportGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewVoiceHistoryExportGetMethodNotAllowed() *VoiceHistoryExportGetMethodNotA
 METHOD_NOT_FOUND
 */
 type VoiceHistoryExportGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceHistoryExportGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewVoiceHistoryExportGetTooManyRequests() *VoiceHistoryExportGetTooManyRequ
 TOO_MANY_REQUESTS
 */
 type VoiceHistoryExportGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceHistoryExportGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type VoiceHistoryExportGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the voice history export get default response

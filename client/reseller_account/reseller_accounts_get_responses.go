@@ -94,7 +94,7 @@ func NewResellerAccountsGetOK() *ResellerAccountsGetOK {
 SUCCESS
 */
 type ResellerAccountsGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewResellerAccountsGetBadRequest() *ResellerAccountsGetBadRequest {
 BAD_REQUEST
 */
 type ResellerAccountsGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewResellerAccountsGetUnauthorized() *ResellerAccountsGetUnauthorized {
 UNAUTHORIZED
 */
 type ResellerAccountsGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewResellerAccountsGetForbidden() *ResellerAccountsGetForbidden {
 FORBIDDEN
 */
 type ResellerAccountsGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewResellerAccountsGetNotFound() *ResellerAccountsGetNotFound {
 NOT_FOUND
 */
 type ResellerAccountsGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewResellerAccountsGetMethodNotAllowed() *ResellerAccountsGetMethodNotAllow
 METHOD_NOT_FOUND
 */
 type ResellerAccountsGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewResellerAccountsGetTooManyRequests() *ResellerAccountsGetTooManyRequests
 TOO_MANY_REQUESTS
 */
 type ResellerAccountsGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ResellerAccountsGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the reseller accounts get default response

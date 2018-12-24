@@ -94,7 +94,7 @@ func NewDeliveryIssuesPostOK() *DeliveryIssuesPostOK {
 SUCCESS
 */
 type DeliveryIssuesPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *DeliveryIssuesPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewDeliveryIssuesPostBadRequest() *DeliveryIssuesPostBadRequest {
 BAD_REQUEST
 */
 type DeliveryIssuesPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *DeliveryIssuesPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewDeliveryIssuesPostUnauthorized() *DeliveryIssuesPostUnauthorized {
 UNAUTHORIZED
 */
 type DeliveryIssuesPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *DeliveryIssuesPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewDeliveryIssuesPostForbidden() *DeliveryIssuesPostForbidden {
 FORBIDDEN
 */
 type DeliveryIssuesPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *DeliveryIssuesPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewDeliveryIssuesPostNotFound() *DeliveryIssuesPostNotFound {
 NOT_FOUND
 */
 type DeliveryIssuesPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *DeliveryIssuesPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewDeliveryIssuesPostMethodNotAllowed() *DeliveryIssuesPostMethodNotAllowed
 METHOD_NOT_FOUND
 */
 type DeliveryIssuesPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *DeliveryIssuesPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewDeliveryIssuesPostTooManyRequests() *DeliveryIssuesPostTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type DeliveryIssuesPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *DeliveryIssuesPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type DeliveryIssuesPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the delivery issues post default response

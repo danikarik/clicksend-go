@@ -94,7 +94,7 @@ func NewFAXReceiptsByMessageIDGetOK() *FAXReceiptsByMessageIDGetOK {
 SUCCESS
 */
 type FAXReceiptsByMessageIDGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsByMessageIDGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewFAXReceiptsByMessageIDGetBadRequest() *FAXReceiptsByMessageIDGetBadReque
 BAD_REQUEST
 */
 type FAXReceiptsByMessageIDGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsByMessageIDGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewFAXReceiptsByMessageIDGetUnauthorized() *FAXReceiptsByMessageIDGetUnauth
 UNAUTHORIZED
 */
 type FAXReceiptsByMessageIDGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsByMessageIDGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewFAXReceiptsByMessageIDGetForbidden() *FAXReceiptsByMessageIDGetForbidden
 FORBIDDEN
 */
 type FAXReceiptsByMessageIDGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsByMessageIDGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewFAXReceiptsByMessageIDGetNotFound() *FAXReceiptsByMessageIDGetNotFound {
 NOT_FOUND
 */
 type FAXReceiptsByMessageIDGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsByMessageIDGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewFAXReceiptsByMessageIDGetMethodNotAllowed() *FAXReceiptsByMessageIDGetMe
 METHOD_NOT_FOUND
 */
 type FAXReceiptsByMessageIDGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsByMessageIDGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewFAXReceiptsByMessageIDGetTooManyRequests() *FAXReceiptsByMessageIDGetToo
 TOO_MANY_REQUESTS
 */
 type FAXReceiptsByMessageIDGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsByMessageIDGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type FAXReceiptsByMessageIDGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Fax receipts by message Id get default response

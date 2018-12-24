@@ -94,7 +94,7 @@ func NewVerifyAllowedEmailAddressGetOK() *VerifyAllowedEmailAddressGetOK {
 SUCCESS
 */
 type VerifyAllowedEmailAddressGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VerifyAllowedEmailAddressGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewVerifyAllowedEmailAddressGetBadRequest() *VerifyAllowedEmailAddressGetBa
 BAD_REQUEST
 */
 type VerifyAllowedEmailAddressGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VerifyAllowedEmailAddressGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewVerifyAllowedEmailAddressGetUnauthorized() *VerifyAllowedEmailAddressGet
 UNAUTHORIZED
 */
 type VerifyAllowedEmailAddressGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VerifyAllowedEmailAddressGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewVerifyAllowedEmailAddressGetForbidden() *VerifyAllowedEmailAddressGetFor
 FORBIDDEN
 */
 type VerifyAllowedEmailAddressGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VerifyAllowedEmailAddressGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewVerifyAllowedEmailAddressGetNotFound() *VerifyAllowedEmailAddressGetNotF
 NOT_FOUND
 */
 type VerifyAllowedEmailAddressGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VerifyAllowedEmailAddressGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewVerifyAllowedEmailAddressGetMethodNotAllowed() *VerifyAllowedEmailAddres
 METHOD_NOT_FOUND
 */
 type VerifyAllowedEmailAddressGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VerifyAllowedEmailAddressGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewVerifyAllowedEmailAddressGetTooManyRequests() *VerifyAllowedEmailAddress
 TOO_MANY_REQUESTS
 */
 type VerifyAllowedEmailAddressGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VerifyAllowedEmailAddressGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type VerifyAllowedEmailAddressGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the verify allowed email address get default response

@@ -94,7 +94,7 @@ func NewFAXInboundAutomationDeleteOK() *FAXInboundAutomationDeleteOK {
 SUCCESS
 */
 type FAXInboundAutomationDeleteOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationDeleteOK) Error() string {
@@ -121,7 +121,7 @@ func NewFAXInboundAutomationDeleteBadRequest() *FAXInboundAutomationDeleteBadReq
 BAD_REQUEST
 */
 type FAXInboundAutomationDeleteBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationDeleteBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewFAXInboundAutomationDeleteUnauthorized() *FAXInboundAutomationDeleteUnau
 UNAUTHORIZED
 */
 type FAXInboundAutomationDeleteUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationDeleteUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewFAXInboundAutomationDeleteForbidden() *FAXInboundAutomationDeleteForbidd
 FORBIDDEN
 */
 type FAXInboundAutomationDeleteForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationDeleteForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewFAXInboundAutomationDeleteNotFound() *FAXInboundAutomationDeleteNotFound
 NOT_FOUND
 */
 type FAXInboundAutomationDeleteNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationDeleteNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewFAXInboundAutomationDeleteMethodNotAllowed() *FAXInboundAutomationDelete
 METHOD_NOT_FOUND
 */
 type FAXInboundAutomationDeleteMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationDeleteMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewFAXInboundAutomationDeleteTooManyRequests() *FAXInboundAutomationDeleteT
 TOO_MANY_REQUESTS
 */
 type FAXInboundAutomationDeleteTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationDeleteTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type FAXInboundAutomationDeleteDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Fax inbound automation delete default response

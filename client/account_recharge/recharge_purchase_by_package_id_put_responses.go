@@ -94,7 +94,7 @@ func NewRechargePurchaseByPackageIDPutOK() *RechargePurchaseByPackageIDPutOK {
 SUCCESS
 */
 type RechargePurchaseByPackageIDPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargePurchaseByPackageIDPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewRechargePurchaseByPackageIDPutBadRequest() *RechargePurchaseByPackageIDP
 BAD_REQUEST
 */
 type RechargePurchaseByPackageIDPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargePurchaseByPackageIDPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewRechargePurchaseByPackageIDPutUnauthorized() *RechargePurchaseByPackageI
 UNAUTHORIZED
 */
 type RechargePurchaseByPackageIDPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargePurchaseByPackageIDPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewRechargePurchaseByPackageIDPutForbidden() *RechargePurchaseByPackageIDPu
 FORBIDDEN
 */
 type RechargePurchaseByPackageIDPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargePurchaseByPackageIDPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewRechargePurchaseByPackageIDPutNotFound() *RechargePurchaseByPackageIDPut
 NOT_FOUND
 */
 type RechargePurchaseByPackageIDPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargePurchaseByPackageIDPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewRechargePurchaseByPackageIDPutMethodNotAllowed() *RechargePurchaseByPack
 METHOD_NOT_FOUND
 */
 type RechargePurchaseByPackageIDPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargePurchaseByPackageIDPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewRechargePurchaseByPackageIDPutTooManyRequests() *RechargePurchaseByPacka
 TOO_MANY_REQUESTS
 */
 type RechargePurchaseByPackageIDPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargePurchaseByPackageIDPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type RechargePurchaseByPackageIDPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the recharge purchase by package Id put default response

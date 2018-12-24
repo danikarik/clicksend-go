@@ -94,7 +94,7 @@ func NewMMSCampaignsCancelByMMSCampaignIDPutOK() *MMSCampaignsCancelByMMSCampaig
 SUCCESS
 */
 type MMSCampaignsCancelByMMSCampaignIDPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsCancelByMMSCampaignIDPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewMMSCampaignsCancelByMMSCampaignIDPutBadRequest() *MMSCampaignsCancelByMM
 BAD_REQUEST
 */
 type MMSCampaignsCancelByMMSCampaignIDPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsCancelByMMSCampaignIDPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewMMSCampaignsCancelByMMSCampaignIDPutUnauthorized() *MMSCampaignsCancelBy
 UNAUTHORIZED
 */
 type MMSCampaignsCancelByMMSCampaignIDPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsCancelByMMSCampaignIDPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewMMSCampaignsCancelByMMSCampaignIDPutForbidden() *MMSCampaignsCancelByMMS
 FORBIDDEN
 */
 type MMSCampaignsCancelByMMSCampaignIDPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsCancelByMMSCampaignIDPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewMMSCampaignsCancelByMMSCampaignIDPutNotFound() *MMSCampaignsCancelByMMSC
 NOT_FOUND
 */
 type MMSCampaignsCancelByMMSCampaignIDPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsCancelByMMSCampaignIDPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewMMSCampaignsCancelByMMSCampaignIDPutMethodNotAllowed() *MMSCampaignsCanc
 METHOD_NOT_FOUND
 */
 type MMSCampaignsCancelByMMSCampaignIDPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsCancelByMMSCampaignIDPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewMMSCampaignsCancelByMMSCampaignIDPutTooManyRequests() *MMSCampaignsCance
 TOO_MANY_REQUESTS
 */
 type MMSCampaignsCancelByMMSCampaignIDPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsCancelByMMSCampaignIDPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type MMSCampaignsCancelByMMSCampaignIDPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Mms campaigns cancel by Mms campaign Id put default response

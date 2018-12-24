@@ -94,7 +94,7 @@ func NewFAXDeliveryReceiptAutomationDeleteOK() *FAXDeliveryReceiptAutomationDele
 SUCCESS
 */
 type FAXDeliveryReceiptAutomationDeleteOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXDeliveryReceiptAutomationDeleteOK) Error() string {
@@ -121,7 +121,7 @@ func NewFAXDeliveryReceiptAutomationDeleteBadRequest() *FAXDeliveryReceiptAutoma
 BAD_REQUEST
 */
 type FAXDeliveryReceiptAutomationDeleteBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXDeliveryReceiptAutomationDeleteBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewFAXDeliveryReceiptAutomationDeleteUnauthorized() *FAXDeliveryReceiptAuto
 UNAUTHORIZED
 */
 type FAXDeliveryReceiptAutomationDeleteUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXDeliveryReceiptAutomationDeleteUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewFAXDeliveryReceiptAutomationDeleteForbidden() *FAXDeliveryReceiptAutomat
 FORBIDDEN
 */
 type FAXDeliveryReceiptAutomationDeleteForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXDeliveryReceiptAutomationDeleteForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewFAXDeliveryReceiptAutomationDeleteNotFound() *FAXDeliveryReceiptAutomati
 NOT_FOUND
 */
 type FAXDeliveryReceiptAutomationDeleteNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXDeliveryReceiptAutomationDeleteNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewFAXDeliveryReceiptAutomationDeleteMethodNotAllowed() *FAXDeliveryReceipt
 METHOD_NOT_FOUND
 */
 type FAXDeliveryReceiptAutomationDeleteMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXDeliveryReceiptAutomationDeleteMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewFAXDeliveryReceiptAutomationDeleteTooManyRequests() *FAXDeliveryReceiptA
 TOO_MANY_REQUESTS
 */
 type FAXDeliveryReceiptAutomationDeleteTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXDeliveryReceiptAutomationDeleteTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type FAXDeliveryReceiptAutomationDeleteDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Fax delivery receipt automation delete default response

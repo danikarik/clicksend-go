@@ -94,7 +94,7 @@ func NewEmailDeliveryReceiptAutomationDeleteOK() *EmailDeliveryReceiptAutomation
 SUCCESS
 */
 type EmailDeliveryReceiptAutomationDeleteOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailDeliveryReceiptAutomationDeleteOK) Error() string {
@@ -121,7 +121,7 @@ func NewEmailDeliveryReceiptAutomationDeleteBadRequest() *EmailDeliveryReceiptAu
 BAD_REQUEST
 */
 type EmailDeliveryReceiptAutomationDeleteBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailDeliveryReceiptAutomationDeleteBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewEmailDeliveryReceiptAutomationDeleteUnauthorized() *EmailDeliveryReceipt
 UNAUTHORIZED
 */
 type EmailDeliveryReceiptAutomationDeleteUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailDeliveryReceiptAutomationDeleteUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewEmailDeliveryReceiptAutomationDeleteForbidden() *EmailDeliveryReceiptAut
 FORBIDDEN
 */
 type EmailDeliveryReceiptAutomationDeleteForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailDeliveryReceiptAutomationDeleteForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewEmailDeliveryReceiptAutomationDeleteNotFound() *EmailDeliveryReceiptAuto
 NOT_FOUND
 */
 type EmailDeliveryReceiptAutomationDeleteNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailDeliveryReceiptAutomationDeleteNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewEmailDeliveryReceiptAutomationDeleteMethodNotAllowed() *EmailDeliveryRec
 METHOD_NOT_FOUND
 */
 type EmailDeliveryReceiptAutomationDeleteMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailDeliveryReceiptAutomationDeleteMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewEmailDeliveryReceiptAutomationDeleteTooManyRequests() *EmailDeliveryRece
 TOO_MANY_REQUESTS
 */
 type EmailDeliveryReceiptAutomationDeleteTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailDeliveryReceiptAutomationDeleteTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type EmailDeliveryReceiptAutomationDeleteDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the email delivery receipt automation delete default response

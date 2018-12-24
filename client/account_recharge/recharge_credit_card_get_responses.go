@@ -94,7 +94,7 @@ func NewRechargeCreditCardGetOK() *RechargeCreditCardGetOK {
 SUCCESS
 */
 type RechargeCreditCardGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeCreditCardGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewRechargeCreditCardGetBadRequest() *RechargeCreditCardGetBadRequest {
 BAD_REQUEST
 */
 type RechargeCreditCardGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeCreditCardGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewRechargeCreditCardGetUnauthorized() *RechargeCreditCardGetUnauthorized {
 UNAUTHORIZED
 */
 type RechargeCreditCardGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeCreditCardGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewRechargeCreditCardGetForbidden() *RechargeCreditCardGetForbidden {
 FORBIDDEN
 */
 type RechargeCreditCardGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeCreditCardGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewRechargeCreditCardGetNotFound() *RechargeCreditCardGetNotFound {
 NOT_FOUND
 */
 type RechargeCreditCardGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeCreditCardGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewRechargeCreditCardGetMethodNotAllowed() *RechargeCreditCardGetMethodNotA
 METHOD_NOT_FOUND
 */
 type RechargeCreditCardGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeCreditCardGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewRechargeCreditCardGetTooManyRequests() *RechargeCreditCardGetTooManyRequ
 TOO_MANY_REQUESTS
 */
 type RechargeCreditCardGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeCreditCardGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type RechargeCreditCardGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the recharge credit card get default response

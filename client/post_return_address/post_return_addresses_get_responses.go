@@ -94,7 +94,7 @@ func NewPostReturnAddressesGetOK() *PostReturnAddressesGetOK {
 SUCCESS
 */
 type PostReturnAddressesGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewPostReturnAddressesGetBadRequest() *PostReturnAddressesGetBadRequest {
 BAD_REQUEST
 */
 type PostReturnAddressesGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewPostReturnAddressesGetUnauthorized() *PostReturnAddressesGetUnauthorized
 UNAUTHORIZED
 */
 type PostReturnAddressesGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewPostReturnAddressesGetForbidden() *PostReturnAddressesGetForbidden {
 FORBIDDEN
 */
 type PostReturnAddressesGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewPostReturnAddressesGetNotFound() *PostReturnAddressesGetNotFound {
 NOT_FOUND
 */
 type PostReturnAddressesGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewPostReturnAddressesGetMethodNotAllowed() *PostReturnAddressesGetMethodNo
 METHOD_NOT_FOUND
 */
 type PostReturnAddressesGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewPostReturnAddressesGetTooManyRequests() *PostReturnAddressesGetTooManyRe
 TOO_MANY_REQUESTS
 */
 type PostReturnAddressesGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type PostReturnAddressesGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the post return addresses get default response

@@ -94,7 +94,7 @@ func NewFAXReceiptsReadPutOK() *FAXReceiptsReadPutOK {
 SUCCESS
 */
 type FAXReceiptsReadPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsReadPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewFAXReceiptsReadPutBadRequest() *FAXReceiptsReadPutBadRequest {
 BAD_REQUEST
 */
 type FAXReceiptsReadPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsReadPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewFAXReceiptsReadPutUnauthorized() *FAXReceiptsReadPutUnauthorized {
 UNAUTHORIZED
 */
 type FAXReceiptsReadPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsReadPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewFAXReceiptsReadPutForbidden() *FAXReceiptsReadPutForbidden {
 FORBIDDEN
 */
 type FAXReceiptsReadPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsReadPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewFAXReceiptsReadPutNotFound() *FAXReceiptsReadPutNotFound {
 NOT_FOUND
 */
 type FAXReceiptsReadPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsReadPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewFAXReceiptsReadPutMethodNotAllowed() *FAXReceiptsReadPutMethodNotAllowed
 METHOD_NOT_FOUND
 */
 type FAXReceiptsReadPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsReadPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewFAXReceiptsReadPutTooManyRequests() *FAXReceiptsReadPutTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type FAXReceiptsReadPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsReadPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type FAXReceiptsReadPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Fax receipts read put default response

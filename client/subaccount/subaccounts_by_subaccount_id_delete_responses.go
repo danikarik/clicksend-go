@@ -94,7 +94,7 @@ func NewSubaccountsBySubaccountIDDeleteOK() *SubaccountsBySubaccountIDDeleteOK {
 SUCCESS
 */
 type SubaccountsBySubaccountIDDeleteOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsBySubaccountIDDeleteOK) Error() string {
@@ -121,7 +121,7 @@ func NewSubaccountsBySubaccountIDDeleteBadRequest() *SubaccountsBySubaccountIDDe
 BAD_REQUEST
 */
 type SubaccountsBySubaccountIDDeleteBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsBySubaccountIDDeleteBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSubaccountsBySubaccountIDDeleteUnauthorized() *SubaccountsBySubaccountID
 UNAUTHORIZED
 */
 type SubaccountsBySubaccountIDDeleteUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsBySubaccountIDDeleteUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSubaccountsBySubaccountIDDeleteForbidden() *SubaccountsBySubaccountIDDel
 FORBIDDEN
 */
 type SubaccountsBySubaccountIDDeleteForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsBySubaccountIDDeleteForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSubaccountsBySubaccountIDDeleteNotFound() *SubaccountsBySubaccountIDDele
 NOT_FOUND
 */
 type SubaccountsBySubaccountIDDeleteNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsBySubaccountIDDeleteNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSubaccountsBySubaccountIDDeleteMethodNotAllowed() *SubaccountsBySubaccou
 METHOD_NOT_FOUND
 */
 type SubaccountsBySubaccountIDDeleteMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsBySubaccountIDDeleteMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSubaccountsBySubaccountIDDeleteTooManyRequests() *SubaccountsBySubaccoun
 TOO_MANY_REQUESTS
 */
 type SubaccountsBySubaccountIDDeleteTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsBySubaccountIDDeleteTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SubaccountsBySubaccountIDDeleteDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the subaccounts by subaccount Id delete default response

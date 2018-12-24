@@ -94,7 +94,7 @@ func NewSMSReceiptsGetOK() *SMSReceiptsGetOK {
 SUCCESS
 */
 type SMSReceiptsGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSReceiptsGetBadRequest() *SMSReceiptsGetBadRequest {
 BAD_REQUEST
 */
 type SMSReceiptsGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSReceiptsGetUnauthorized() *SMSReceiptsGetUnauthorized {
 UNAUTHORIZED
 */
 type SMSReceiptsGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSReceiptsGetForbidden() *SMSReceiptsGetForbidden {
 FORBIDDEN
 */
 type SMSReceiptsGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSReceiptsGetNotFound() *SMSReceiptsGetNotFound {
 NOT_FOUND
 */
 type SMSReceiptsGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSReceiptsGetMethodNotAllowed() *SMSReceiptsGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type SMSReceiptsGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSReceiptsGetTooManyRequests() *SMSReceiptsGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type SMSReceiptsGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSReceiptsGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms receipts get default response

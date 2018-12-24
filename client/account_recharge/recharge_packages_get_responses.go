@@ -94,7 +94,7 @@ func NewRechargePackagesGetOK() *RechargePackagesGetOK {
 SUCCESS
 */
 type RechargePackagesGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargePackagesGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewRechargePackagesGetBadRequest() *RechargePackagesGetBadRequest {
 BAD_REQUEST
 */
 type RechargePackagesGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargePackagesGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewRechargePackagesGetUnauthorized() *RechargePackagesGetUnauthorized {
 UNAUTHORIZED
 */
 type RechargePackagesGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargePackagesGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewRechargePackagesGetForbidden() *RechargePackagesGetForbidden {
 FORBIDDEN
 */
 type RechargePackagesGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargePackagesGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewRechargePackagesGetNotFound() *RechargePackagesGetNotFound {
 NOT_FOUND
 */
 type RechargePackagesGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargePackagesGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewRechargePackagesGetMethodNotAllowed() *RechargePackagesGetMethodNotAllow
 METHOD_NOT_FOUND
 */
 type RechargePackagesGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargePackagesGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewRechargePackagesGetTooManyRequests() *RechargePackagesGetTooManyRequests
 TOO_MANY_REQUESTS
 */
 type RechargePackagesGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargePackagesGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type RechargePackagesGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the recharge packages get default response

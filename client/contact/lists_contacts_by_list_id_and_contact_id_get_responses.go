@@ -94,7 +94,7 @@ func NewListsContactsByListIDAndContactIDGetOK() *ListsContactsByListIDAndContac
 SUCCESS
 */
 type ListsContactsByListIDAndContactIDGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDAndContactIDGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewListsContactsByListIDAndContactIDGetBadRequest() *ListsContactsByListIDA
 BAD_REQUEST
 */
 type ListsContactsByListIDAndContactIDGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDAndContactIDGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewListsContactsByListIDAndContactIDGetUnauthorized() *ListsContactsByListI
 UNAUTHORIZED
 */
 type ListsContactsByListIDAndContactIDGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDAndContactIDGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewListsContactsByListIDAndContactIDGetForbidden() *ListsContactsByListIDAn
 FORBIDDEN
 */
 type ListsContactsByListIDAndContactIDGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDAndContactIDGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewListsContactsByListIDAndContactIDGetNotFound() *ListsContactsByListIDAnd
 NOT_FOUND
 */
 type ListsContactsByListIDAndContactIDGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDAndContactIDGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewListsContactsByListIDAndContactIDGetMethodNotAllowed() *ListsContactsByL
 METHOD_NOT_FOUND
 */
 type ListsContactsByListIDAndContactIDGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDAndContactIDGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewListsContactsByListIDAndContactIDGetTooManyRequests() *ListsContactsByLi
 TOO_MANY_REQUESTS
 */
 type ListsContactsByListIDAndContactIDGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDAndContactIDGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ListsContactsByListIDAndContactIDGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the lists contacts by list Id and contact Id get default response

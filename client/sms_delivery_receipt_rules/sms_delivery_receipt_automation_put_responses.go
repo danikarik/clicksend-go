@@ -94,7 +94,7 @@ func NewSMSDeliveryReceiptAutomationPutOK() *SMSDeliveryReceiptAutomationPutOK {
 SUCCESS
 */
 type SMSDeliveryReceiptAutomationPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSDeliveryReceiptAutomationPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSDeliveryReceiptAutomationPutBadRequest() *SMSDeliveryReceiptAutomatio
 BAD_REQUEST
 */
 type SMSDeliveryReceiptAutomationPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSDeliveryReceiptAutomationPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSDeliveryReceiptAutomationPutUnauthorized() *SMSDeliveryReceiptAutomat
 UNAUTHORIZED
 */
 type SMSDeliveryReceiptAutomationPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSDeliveryReceiptAutomationPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSDeliveryReceiptAutomationPutForbidden() *SMSDeliveryReceiptAutomation
 FORBIDDEN
 */
 type SMSDeliveryReceiptAutomationPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSDeliveryReceiptAutomationPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSDeliveryReceiptAutomationPutNotFound() *SMSDeliveryReceiptAutomationP
 NOT_FOUND
 */
 type SMSDeliveryReceiptAutomationPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSDeliveryReceiptAutomationPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSDeliveryReceiptAutomationPutMethodNotAllowed() *SMSDeliveryReceiptAut
 METHOD_NOT_FOUND
 */
 type SMSDeliveryReceiptAutomationPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSDeliveryReceiptAutomationPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSDeliveryReceiptAutomationPutTooManyRequests() *SMSDeliveryReceiptAuto
 TOO_MANY_REQUESTS
 */
 type SMSDeliveryReceiptAutomationPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSDeliveryReceiptAutomationPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSDeliveryReceiptAutomationPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms delivery receipt automation put default response

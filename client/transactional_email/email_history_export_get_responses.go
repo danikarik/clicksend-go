@@ -94,7 +94,7 @@ func NewEmailHistoryExportGetOK() *EmailHistoryExportGetOK {
 SUCCESS
 */
 type EmailHistoryExportGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailHistoryExportGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewEmailHistoryExportGetBadRequest() *EmailHistoryExportGetBadRequest {
 BAD_REQUEST
 */
 type EmailHistoryExportGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailHistoryExportGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewEmailHistoryExportGetUnauthorized() *EmailHistoryExportGetUnauthorized {
 UNAUTHORIZED
 */
 type EmailHistoryExportGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailHistoryExportGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewEmailHistoryExportGetForbidden() *EmailHistoryExportGetForbidden {
 FORBIDDEN
 */
 type EmailHistoryExportGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailHistoryExportGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewEmailHistoryExportGetNotFound() *EmailHistoryExportGetNotFound {
 NOT_FOUND
 */
 type EmailHistoryExportGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailHistoryExportGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewEmailHistoryExportGetMethodNotAllowed() *EmailHistoryExportGetMethodNotA
 METHOD_NOT_FOUND
 */
 type EmailHistoryExportGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailHistoryExportGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewEmailHistoryExportGetTooManyRequests() *EmailHistoryExportGetTooManyRequ
 TOO_MANY_REQUESTS
 */
 type EmailHistoryExportGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailHistoryExportGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type EmailHistoryExportGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the email history export get default response

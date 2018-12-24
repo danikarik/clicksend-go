@@ -94,7 +94,7 @@ func NewVoiceHistoryGetOK() *VoiceHistoryGetOK {
 SUCCESS
 */
 type VoiceHistoryGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceHistoryGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewVoiceHistoryGetBadRequest() *VoiceHistoryGetBadRequest {
 BAD_REQUEST
 */
 type VoiceHistoryGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceHistoryGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewVoiceHistoryGetUnauthorized() *VoiceHistoryGetUnauthorized {
 UNAUTHORIZED
 */
 type VoiceHistoryGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceHistoryGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewVoiceHistoryGetForbidden() *VoiceHistoryGetForbidden {
 FORBIDDEN
 */
 type VoiceHistoryGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceHistoryGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewVoiceHistoryGetNotFound() *VoiceHistoryGetNotFound {
 NOT_FOUND
 */
 type VoiceHistoryGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceHistoryGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewVoiceHistoryGetMethodNotAllowed() *VoiceHistoryGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type VoiceHistoryGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceHistoryGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewVoiceHistoryGetTooManyRequests() *VoiceHistoryGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type VoiceHistoryGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceHistoryGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type VoiceHistoryGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the voice history get default response

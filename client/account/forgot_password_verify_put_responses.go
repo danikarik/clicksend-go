@@ -94,7 +94,7 @@ func NewForgotPasswordVerifyPutOK() *ForgotPasswordVerifyPutOK {
 SUCCESS
 */
 type ForgotPasswordVerifyPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotPasswordVerifyPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewForgotPasswordVerifyPutBadRequest() *ForgotPasswordVerifyPutBadRequest {
 BAD_REQUEST
 */
 type ForgotPasswordVerifyPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotPasswordVerifyPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewForgotPasswordVerifyPutUnauthorized() *ForgotPasswordVerifyPutUnauthoriz
 UNAUTHORIZED
 */
 type ForgotPasswordVerifyPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotPasswordVerifyPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewForgotPasswordVerifyPutForbidden() *ForgotPasswordVerifyPutForbidden {
 FORBIDDEN
 */
 type ForgotPasswordVerifyPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotPasswordVerifyPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewForgotPasswordVerifyPutNotFound() *ForgotPasswordVerifyPutNotFound {
 NOT_FOUND
 */
 type ForgotPasswordVerifyPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotPasswordVerifyPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewForgotPasswordVerifyPutMethodNotAllowed() *ForgotPasswordVerifyPutMethod
 METHOD_NOT_FOUND
 */
 type ForgotPasswordVerifyPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotPasswordVerifyPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewForgotPasswordVerifyPutTooManyRequests() *ForgotPasswordVerifyPutTooMany
 TOO_MANY_REQUESTS
 */
 type ForgotPasswordVerifyPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ForgotPasswordVerifyPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ForgotPasswordVerifyPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the forgot password verify put default response

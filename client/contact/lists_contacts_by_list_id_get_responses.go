@@ -94,7 +94,7 @@ func NewListsContactsByListIDGetOK() *ListsContactsByListIDGetOK {
 SUCCESS
 */
 type ListsContactsByListIDGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewListsContactsByListIDGetBadRequest() *ListsContactsByListIDGetBadRequest
 BAD_REQUEST
 */
 type ListsContactsByListIDGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewListsContactsByListIDGetUnauthorized() *ListsContactsByListIDGetUnauthor
 UNAUTHORIZED
 */
 type ListsContactsByListIDGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewListsContactsByListIDGetForbidden() *ListsContactsByListIDGetForbidden {
 FORBIDDEN
 */
 type ListsContactsByListIDGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewListsContactsByListIDGetNotFound() *ListsContactsByListIDGetNotFound {
 NOT_FOUND
 */
 type ListsContactsByListIDGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewListsContactsByListIDGetMethodNotAllowed() *ListsContactsByListIDGetMeth
 METHOD_NOT_FOUND
 */
 type ListsContactsByListIDGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewListsContactsByListIDGetTooManyRequests() *ListsContactsByListIDGetTooMa
 TOO_MANY_REQUESTS
 */
 type ListsContactsByListIDGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ListsContactsByListIDGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the lists contacts by list Id get default response

@@ -94,7 +94,7 @@ func NewFAXSendPostOK() *FAXSendPostOK {
 SUCCESS
 */
 type FAXSendPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXSendPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewFAXSendPostBadRequest() *FAXSendPostBadRequest {
 BAD_REQUEST
 */
 type FAXSendPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXSendPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewFAXSendPostUnauthorized() *FAXSendPostUnauthorized {
 UNAUTHORIZED
 */
 type FAXSendPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXSendPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewFAXSendPostForbidden() *FAXSendPostForbidden {
 FORBIDDEN
 */
 type FAXSendPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXSendPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewFAXSendPostNotFound() *FAXSendPostNotFound {
 NOT_FOUND
 */
 type FAXSendPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXSendPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewFAXSendPostMethodNotAllowed() *FAXSendPostMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type FAXSendPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXSendPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewFAXSendPostTooManyRequests() *FAXSendPostTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type FAXSendPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXSendPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type FAXSendPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Fax send post default response

@@ -94,7 +94,7 @@ func NewStatisticsVoiceGetOK() *StatisticsVoiceGetOK {
 SUCCESS
 */
 type StatisticsVoiceGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *StatisticsVoiceGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewStatisticsVoiceGetBadRequest() *StatisticsVoiceGetBadRequest {
 BAD_REQUEST
 */
 type StatisticsVoiceGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *StatisticsVoiceGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewStatisticsVoiceGetUnauthorized() *StatisticsVoiceGetUnauthorized {
 UNAUTHORIZED
 */
 type StatisticsVoiceGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *StatisticsVoiceGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewStatisticsVoiceGetForbidden() *StatisticsVoiceGetForbidden {
 FORBIDDEN
 */
 type StatisticsVoiceGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *StatisticsVoiceGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewStatisticsVoiceGetNotFound() *StatisticsVoiceGetNotFound {
 NOT_FOUND
 */
 type StatisticsVoiceGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *StatisticsVoiceGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewStatisticsVoiceGetMethodNotAllowed() *StatisticsVoiceGetMethodNotAllowed
 METHOD_NOT_FOUND
 */
 type StatisticsVoiceGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *StatisticsVoiceGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewStatisticsVoiceGetTooManyRequests() *StatisticsVoiceGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type StatisticsVoiceGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *StatisticsVoiceGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type StatisticsVoiceGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the statistics voice get default response

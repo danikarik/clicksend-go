@@ -94,7 +94,7 @@ func NewPostLettersExportGetOK() *PostLettersExportGetOK {
 SUCCESS
 */
 type PostLettersExportGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersExportGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewPostLettersExportGetBadRequest() *PostLettersExportGetBadRequest {
 BAD_REQUEST
 */
 type PostLettersExportGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersExportGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewPostLettersExportGetUnauthorized() *PostLettersExportGetUnauthorized {
 UNAUTHORIZED
 */
 type PostLettersExportGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersExportGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewPostLettersExportGetForbidden() *PostLettersExportGetForbidden {
 FORBIDDEN
 */
 type PostLettersExportGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersExportGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewPostLettersExportGetNotFound() *PostLettersExportGetNotFound {
 NOT_FOUND
 */
 type PostLettersExportGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersExportGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewPostLettersExportGetMethodNotAllowed() *PostLettersExportGetMethodNotAll
 METHOD_NOT_FOUND
 */
 type PostLettersExportGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersExportGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewPostLettersExportGetTooManyRequests() *PostLettersExportGetTooManyReques
 TOO_MANY_REQUESTS
 */
 type PostLettersExportGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersExportGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type PostLettersExportGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the post letters export get default response

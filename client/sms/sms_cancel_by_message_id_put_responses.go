@@ -94,7 +94,7 @@ func NewSMSCancelByMessageIDPutOK() *SMSCancelByMessageIDPutOK {
 SUCCESS
 */
 type SMSCancelByMessageIDPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCancelByMessageIDPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSCancelByMessageIDPutBadRequest() *SMSCancelByMessageIDPutBadRequest {
 BAD_REQUEST
 */
 type SMSCancelByMessageIDPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCancelByMessageIDPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSCancelByMessageIDPutUnauthorized() *SMSCancelByMessageIDPutUnauthoriz
 UNAUTHORIZED
 */
 type SMSCancelByMessageIDPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCancelByMessageIDPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSCancelByMessageIDPutForbidden() *SMSCancelByMessageIDPutForbidden {
 FORBIDDEN
 */
 type SMSCancelByMessageIDPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCancelByMessageIDPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSCancelByMessageIDPutNotFound() *SMSCancelByMessageIDPutNotFound {
 NOT_FOUND
 */
 type SMSCancelByMessageIDPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCancelByMessageIDPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSCancelByMessageIDPutMethodNotAllowed() *SMSCancelByMessageIDPutMethod
 METHOD_NOT_FOUND
 */
 type SMSCancelByMessageIDPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCancelByMessageIDPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSCancelByMessageIDPutTooManyRequests() *SMSCancelByMessageIDPutTooMany
 TOO_MANY_REQUESTS
 */
 type SMSCancelByMessageIDPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCancelByMessageIDPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSCancelByMessageIDPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms cancel by message Id put default response

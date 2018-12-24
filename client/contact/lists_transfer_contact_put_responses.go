@@ -94,7 +94,7 @@ func NewListsTransferContactPutOK() *ListsTransferContactPutOK {
 SUCCESS
 */
 type ListsTransferContactPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsTransferContactPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewListsTransferContactPutBadRequest() *ListsTransferContactPutBadRequest {
 BAD_REQUEST
 */
 type ListsTransferContactPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsTransferContactPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewListsTransferContactPutUnauthorized() *ListsTransferContactPutUnauthoriz
 UNAUTHORIZED
 */
 type ListsTransferContactPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsTransferContactPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewListsTransferContactPutForbidden() *ListsTransferContactPutForbidden {
 FORBIDDEN
 */
 type ListsTransferContactPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsTransferContactPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewListsTransferContactPutNotFound() *ListsTransferContactPutNotFound {
 NOT_FOUND
 */
 type ListsTransferContactPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsTransferContactPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewListsTransferContactPutMethodNotAllowed() *ListsTransferContactPutMethod
 METHOD_NOT_FOUND
 */
 type ListsTransferContactPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsTransferContactPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewListsTransferContactPutTooManyRequests() *ListsTransferContactPutTooMany
 TOO_MANY_REQUESTS
 */
 type ListsTransferContactPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsTransferContactPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ListsTransferContactPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the lists transfer contact put default response

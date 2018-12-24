@@ -94,7 +94,7 @@ func NewListsByListIDPutOK() *ListsByListIDPutOK {
 SUCCESS
 */
 type ListsByListIDPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsByListIDPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewListsByListIDPutBadRequest() *ListsByListIDPutBadRequest {
 BAD_REQUEST
 */
 type ListsByListIDPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsByListIDPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewListsByListIDPutUnauthorized() *ListsByListIDPutUnauthorized {
 UNAUTHORIZED
 */
 type ListsByListIDPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsByListIDPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewListsByListIDPutForbidden() *ListsByListIDPutForbidden {
 FORBIDDEN
 */
 type ListsByListIDPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsByListIDPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewListsByListIDPutNotFound() *ListsByListIDPutNotFound {
 NOT_FOUND
 */
 type ListsByListIDPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsByListIDPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewListsByListIDPutMethodNotAllowed() *ListsByListIDPutMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type ListsByListIDPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsByListIDPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewListsByListIDPutTooManyRequests() *ListsByListIDPutTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type ListsByListIDPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsByListIDPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ListsByListIDPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the lists by list Id put default response

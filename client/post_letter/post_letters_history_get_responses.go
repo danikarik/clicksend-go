@@ -94,7 +94,7 @@ func NewPostLettersHistoryGetOK() *PostLettersHistoryGetOK {
 SUCCESS
 */
 type PostLettersHistoryGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersHistoryGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewPostLettersHistoryGetBadRequest() *PostLettersHistoryGetBadRequest {
 BAD_REQUEST
 */
 type PostLettersHistoryGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersHistoryGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewPostLettersHistoryGetUnauthorized() *PostLettersHistoryGetUnauthorized {
 UNAUTHORIZED
 */
 type PostLettersHistoryGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersHistoryGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewPostLettersHistoryGetForbidden() *PostLettersHistoryGetForbidden {
 FORBIDDEN
 */
 type PostLettersHistoryGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersHistoryGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewPostLettersHistoryGetNotFound() *PostLettersHistoryGetNotFound {
 NOT_FOUND
 */
 type PostLettersHistoryGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersHistoryGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewPostLettersHistoryGetMethodNotAllowed() *PostLettersHistoryGetMethodNotA
 METHOD_NOT_FOUND
 */
 type PostLettersHistoryGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersHistoryGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewPostLettersHistoryGetTooManyRequests() *PostLettersHistoryGetTooManyRequ
 TOO_MANY_REQUESTS
 */
 type PostLettersHistoryGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostLettersHistoryGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type PostLettersHistoryGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the post letters history get default response

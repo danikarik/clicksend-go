@@ -94,7 +94,7 @@ func NewPostPostcardsSendPostOK() *PostPostcardsSendPostOK {
 SUCCESS
 */
 type PostPostcardsSendPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsSendPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewPostPostcardsSendPostBadRequest() *PostPostcardsSendPostBadRequest {
 BAD_REQUEST
 */
 type PostPostcardsSendPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsSendPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewPostPostcardsSendPostUnauthorized() *PostPostcardsSendPostUnauthorized {
 UNAUTHORIZED
 */
 type PostPostcardsSendPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsSendPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewPostPostcardsSendPostForbidden() *PostPostcardsSendPostForbidden {
 FORBIDDEN
 */
 type PostPostcardsSendPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsSendPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewPostPostcardsSendPostNotFound() *PostPostcardsSendPostNotFound {
 NOT_FOUND
 */
 type PostPostcardsSendPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsSendPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewPostPostcardsSendPostMethodNotAllowed() *PostPostcardsSendPostMethodNotA
 METHOD_NOT_FOUND
 */
 type PostPostcardsSendPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsSendPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewPostPostcardsSendPostTooManyRequests() *PostPostcardsSendPostTooManyRequ
 TOO_MANY_REQUESTS
 */
 type PostPostcardsSendPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsSendPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type PostPostcardsSendPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the post postcards send post default response

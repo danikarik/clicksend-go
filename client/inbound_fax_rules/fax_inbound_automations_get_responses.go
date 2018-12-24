@@ -94,7 +94,7 @@ func NewFAXInboundAutomationsGetOK() *FAXInboundAutomationsGetOK {
 SUCCESS
 */
 type FAXInboundAutomationsGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationsGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewFAXInboundAutomationsGetBadRequest() *FAXInboundAutomationsGetBadRequest
 BAD_REQUEST
 */
 type FAXInboundAutomationsGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationsGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewFAXInboundAutomationsGetUnauthorized() *FAXInboundAutomationsGetUnauthor
 UNAUTHORIZED
 */
 type FAXInboundAutomationsGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationsGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewFAXInboundAutomationsGetForbidden() *FAXInboundAutomationsGetForbidden {
 FORBIDDEN
 */
 type FAXInboundAutomationsGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationsGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewFAXInboundAutomationsGetNotFound() *FAXInboundAutomationsGetNotFound {
 NOT_FOUND
 */
 type FAXInboundAutomationsGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationsGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewFAXInboundAutomationsGetMethodNotAllowed() *FAXInboundAutomationsGetMeth
 METHOD_NOT_FOUND
 */
 type FAXInboundAutomationsGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationsGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewFAXInboundAutomationsGetTooManyRequests() *FAXInboundAutomationsGetTooMa
 TOO_MANY_REQUESTS
 */
 type FAXInboundAutomationsGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationsGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type FAXInboundAutomationsGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Fax inbound automations get default response

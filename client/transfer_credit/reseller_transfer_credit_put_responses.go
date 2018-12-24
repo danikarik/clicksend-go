@@ -94,7 +94,7 @@ func NewResellerTransferCreditPutOK() *ResellerTransferCreditPutOK {
 SUCCESS
 */
 type ResellerTransferCreditPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerTransferCreditPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewResellerTransferCreditPutBadRequest() *ResellerTransferCreditPutBadReque
 BAD_REQUEST
 */
 type ResellerTransferCreditPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerTransferCreditPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewResellerTransferCreditPutUnauthorized() *ResellerTransferCreditPutUnauth
 UNAUTHORIZED
 */
 type ResellerTransferCreditPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerTransferCreditPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewResellerTransferCreditPutForbidden() *ResellerTransferCreditPutForbidden
 FORBIDDEN
 */
 type ResellerTransferCreditPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerTransferCreditPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewResellerTransferCreditPutNotFound() *ResellerTransferCreditPutNotFound {
 NOT_FOUND
 */
 type ResellerTransferCreditPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerTransferCreditPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewResellerTransferCreditPutMethodNotAllowed() *ResellerTransferCreditPutMe
 METHOD_NOT_FOUND
 */
 type ResellerTransferCreditPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerTransferCreditPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewResellerTransferCreditPutTooManyRequests() *ResellerTransferCreditPutToo
 TOO_MANY_REQUESTS
 */
 type ResellerTransferCreditPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerTransferCreditPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ResellerTransferCreditPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the reseller transfer credit put default response

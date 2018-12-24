@@ -94,7 +94,7 @@ func NewUploadsPostOK() *UploadsPostOK {
 SUCCESS
 */
 type UploadsPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *UploadsPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewUploadsPostBadRequest() *UploadsPostBadRequest {
 BAD_REQUEST
 */
 type UploadsPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *UploadsPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewUploadsPostUnauthorized() *UploadsPostUnauthorized {
 UNAUTHORIZED
 */
 type UploadsPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *UploadsPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewUploadsPostForbidden() *UploadsPostForbidden {
 FORBIDDEN
 */
 type UploadsPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *UploadsPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewUploadsPostNotFound() *UploadsPostNotFound {
 NOT_FOUND
 */
 type UploadsPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *UploadsPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewUploadsPostMethodNotAllowed() *UploadsPostMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type UploadsPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *UploadsPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewUploadsPostTooManyRequests() *UploadsPostTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type UploadsPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *UploadsPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type UploadsPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the uploads post default response

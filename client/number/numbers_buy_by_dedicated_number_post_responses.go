@@ -94,7 +94,7 @@ func NewNumbersBuyByDedicatedNumberPostOK() *NumbersBuyByDedicatedNumberPostOK {
 SUCCESS
 */
 type NumbersBuyByDedicatedNumberPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersBuyByDedicatedNumberPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewNumbersBuyByDedicatedNumberPostBadRequest() *NumbersBuyByDedicatedNumber
 BAD_REQUEST
 */
 type NumbersBuyByDedicatedNumberPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersBuyByDedicatedNumberPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewNumbersBuyByDedicatedNumberPostUnauthorized() *NumbersBuyByDedicatedNumb
 UNAUTHORIZED
 */
 type NumbersBuyByDedicatedNumberPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersBuyByDedicatedNumberPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewNumbersBuyByDedicatedNumberPostForbidden() *NumbersBuyByDedicatedNumberP
 FORBIDDEN
 */
 type NumbersBuyByDedicatedNumberPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersBuyByDedicatedNumberPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewNumbersBuyByDedicatedNumberPostNotFound() *NumbersBuyByDedicatedNumberPo
 NOT_FOUND
 */
 type NumbersBuyByDedicatedNumberPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersBuyByDedicatedNumberPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewNumbersBuyByDedicatedNumberPostMethodNotAllowed() *NumbersBuyByDedicated
 METHOD_NOT_FOUND
 */
 type NumbersBuyByDedicatedNumberPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersBuyByDedicatedNumberPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewNumbersBuyByDedicatedNumberPostTooManyRequests() *NumbersBuyByDedicatedN
 TOO_MANY_REQUESTS
 */
 type NumbersBuyByDedicatedNumberPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersBuyByDedicatedNumberPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type NumbersBuyByDedicatedNumberPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the numbers buy by dedicated number post default response

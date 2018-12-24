@@ -94,7 +94,7 @@ func NewRechargeCreditCardPutOK() *RechargeCreditCardPutOK {
 SUCCESS
 */
 type RechargeCreditCardPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeCreditCardPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewRechargeCreditCardPutBadRequest() *RechargeCreditCardPutBadRequest {
 BAD_REQUEST
 */
 type RechargeCreditCardPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeCreditCardPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewRechargeCreditCardPutUnauthorized() *RechargeCreditCardPutUnauthorized {
 UNAUTHORIZED
 */
 type RechargeCreditCardPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeCreditCardPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewRechargeCreditCardPutForbidden() *RechargeCreditCardPutForbidden {
 FORBIDDEN
 */
 type RechargeCreditCardPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeCreditCardPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewRechargeCreditCardPutNotFound() *RechargeCreditCardPutNotFound {
 NOT_FOUND
 */
 type RechargeCreditCardPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeCreditCardPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewRechargeCreditCardPutMethodNotAllowed() *RechargeCreditCardPutMethodNotA
 METHOD_NOT_FOUND
 */
 type RechargeCreditCardPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeCreditCardPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewRechargeCreditCardPutTooManyRequests() *RechargeCreditCardPutTooManyRequ
 TOO_MANY_REQUESTS
 */
 type RechargeCreditCardPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeCreditCardPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type RechargeCreditCardPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the recharge credit card put default response

@@ -94,7 +94,7 @@ func NewAllowedEmailAddressGetOK() *AllowedEmailAddressGetOK {
 SUCCESS
 */
 type AllowedEmailAddressGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AllowedEmailAddressGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewAllowedEmailAddressGetBadRequest() *AllowedEmailAddressGetBadRequest {
 BAD_REQUEST
 */
 type AllowedEmailAddressGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AllowedEmailAddressGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewAllowedEmailAddressGetUnauthorized() *AllowedEmailAddressGetUnauthorized
 UNAUTHORIZED
 */
 type AllowedEmailAddressGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AllowedEmailAddressGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewAllowedEmailAddressGetForbidden() *AllowedEmailAddressGetForbidden {
 FORBIDDEN
 */
 type AllowedEmailAddressGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AllowedEmailAddressGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewAllowedEmailAddressGetNotFound() *AllowedEmailAddressGetNotFound {
 NOT_FOUND
 */
 type AllowedEmailAddressGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AllowedEmailAddressGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewAllowedEmailAddressGetMethodNotAllowed() *AllowedEmailAddressGetMethodNo
 METHOD_NOT_FOUND
 */
 type AllowedEmailAddressGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AllowedEmailAddressGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewAllowedEmailAddressGetTooManyRequests() *AllowedEmailAddressGetTooManyRe
 TOO_MANY_REQUESTS
 */
 type AllowedEmailAddressGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AllowedEmailAddressGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type AllowedEmailAddressGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the allowed email address get default response

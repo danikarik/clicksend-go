@@ -94,7 +94,7 @@ func NewSMSEmailSMSStrippedStringDeleteOK() *SMSEmailSMSStrippedStringDeleteOK {
 SUCCESS
 */
 type SMSEmailSMSStrippedStringDeleteOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSStrippedStringDeleteOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSEmailSMSStrippedStringDeleteBadRequest() *SMSEmailSMSStrippedStringDe
 BAD_REQUEST
 */
 type SMSEmailSMSStrippedStringDeleteBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSStrippedStringDeleteBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSEmailSMSStrippedStringDeleteUnauthorized() *SMSEmailSMSStrippedString
 UNAUTHORIZED
 */
 type SMSEmailSMSStrippedStringDeleteUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSStrippedStringDeleteUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSEmailSMSStrippedStringDeleteForbidden() *SMSEmailSMSStrippedStringDel
 FORBIDDEN
 */
 type SMSEmailSMSStrippedStringDeleteForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSStrippedStringDeleteForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSEmailSMSStrippedStringDeleteNotFound() *SMSEmailSMSStrippedStringDele
 NOT_FOUND
 */
 type SMSEmailSMSStrippedStringDeleteNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSStrippedStringDeleteNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSEmailSMSStrippedStringDeleteMethodNotAllowed() *SMSEmailSMSStrippedSt
 METHOD_NOT_FOUND
 */
 type SMSEmailSMSStrippedStringDeleteMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSStrippedStringDeleteMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSEmailSMSStrippedStringDeleteTooManyRequests() *SMSEmailSMSStrippedStr
 TOO_MANY_REQUESTS
 */
 type SMSEmailSMSStrippedStringDeleteTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSStrippedStringDeleteTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSEmailSMSStrippedStringDeleteDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms email Sms stripped string delete default response

@@ -94,7 +94,7 @@ func NewVoiceReceiptsGetOK() *VoiceReceiptsGetOK {
 SUCCESS
 */
 type VoiceReceiptsGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceReceiptsGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewVoiceReceiptsGetBadRequest() *VoiceReceiptsGetBadRequest {
 BAD_REQUEST
 */
 type VoiceReceiptsGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceReceiptsGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewVoiceReceiptsGetUnauthorized() *VoiceReceiptsGetUnauthorized {
 UNAUTHORIZED
 */
 type VoiceReceiptsGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceReceiptsGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewVoiceReceiptsGetForbidden() *VoiceReceiptsGetForbidden {
 FORBIDDEN
 */
 type VoiceReceiptsGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceReceiptsGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewVoiceReceiptsGetNotFound() *VoiceReceiptsGetNotFound {
 NOT_FOUND
 */
 type VoiceReceiptsGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceReceiptsGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewVoiceReceiptsGetMethodNotAllowed() *VoiceReceiptsGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type VoiceReceiptsGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceReceiptsGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewVoiceReceiptsGetTooManyRequests() *VoiceReceiptsGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type VoiceReceiptsGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceReceiptsGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type VoiceReceiptsGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the voice receipts get default response

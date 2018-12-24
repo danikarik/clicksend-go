@@ -94,7 +94,7 @@ func NewCountriesGetOK() *CountriesGetOK {
 SUCCESS
 */
 type CountriesGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *CountriesGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewCountriesGetBadRequest() *CountriesGetBadRequest {
 BAD_REQUEST
 */
 type CountriesGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *CountriesGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewCountriesGetUnauthorized() *CountriesGetUnauthorized {
 UNAUTHORIZED
 */
 type CountriesGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *CountriesGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewCountriesGetForbidden() *CountriesGetForbidden {
 FORBIDDEN
 */
 type CountriesGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *CountriesGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewCountriesGetNotFound() *CountriesGetNotFound {
 NOT_FOUND
 */
 type CountriesGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *CountriesGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewCountriesGetMethodNotAllowed() *CountriesGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type CountriesGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *CountriesGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewCountriesGetTooManyRequests() *CountriesGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type CountriesGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *CountriesGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type CountriesGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the countries get default response

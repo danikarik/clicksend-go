@@ -94,7 +94,7 @@ func NewSubaccountsPostOK() *SubaccountsPostOK {
 SUCCESS
 */
 type SubaccountsPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewSubaccountsPostBadRequest() *SubaccountsPostBadRequest {
 BAD_REQUEST
 */
 type SubaccountsPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSubaccountsPostUnauthorized() *SubaccountsPostUnauthorized {
 UNAUTHORIZED
 */
 type SubaccountsPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSubaccountsPostForbidden() *SubaccountsPostForbidden {
 FORBIDDEN
 */
 type SubaccountsPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSubaccountsPostNotFound() *SubaccountsPostNotFound {
 NOT_FOUND
 */
 type SubaccountsPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSubaccountsPostMethodNotAllowed() *SubaccountsPostMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type SubaccountsPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSubaccountsPostTooManyRequests() *SubaccountsPostTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type SubaccountsPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SubaccountsPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the subaccounts post default response

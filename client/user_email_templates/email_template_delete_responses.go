@@ -94,7 +94,7 @@ func NewEmailTemplateDeleteOK() *EmailTemplateDeleteOK {
 SUCCESS
 */
 type EmailTemplateDeleteOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailTemplateDeleteOK) Error() string {
@@ -121,7 +121,7 @@ func NewEmailTemplateDeleteBadRequest() *EmailTemplateDeleteBadRequest {
 BAD_REQUEST
 */
 type EmailTemplateDeleteBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailTemplateDeleteBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewEmailTemplateDeleteUnauthorized() *EmailTemplateDeleteUnauthorized {
 UNAUTHORIZED
 */
 type EmailTemplateDeleteUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailTemplateDeleteUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewEmailTemplateDeleteForbidden() *EmailTemplateDeleteForbidden {
 FORBIDDEN
 */
 type EmailTemplateDeleteForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailTemplateDeleteForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewEmailTemplateDeleteNotFound() *EmailTemplateDeleteNotFound {
 NOT_FOUND
 */
 type EmailTemplateDeleteNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailTemplateDeleteNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewEmailTemplateDeleteMethodNotAllowed() *EmailTemplateDeleteMethodNotAllow
 METHOD_NOT_FOUND
 */
 type EmailTemplateDeleteMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailTemplateDeleteMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewEmailTemplateDeleteTooManyRequests() *EmailTemplateDeleteTooManyRequests
 TOO_MANY_REQUESTS
 */
 type EmailTemplateDeleteTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailTemplateDeleteTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type EmailTemplateDeleteDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the email template delete default response

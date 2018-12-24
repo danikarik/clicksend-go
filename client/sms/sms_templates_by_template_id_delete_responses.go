@@ -94,7 +94,7 @@ func NewSMSTemplatesByTemplateIDDeleteOK() *SMSTemplatesByTemplateIDDeleteOK {
 SUCCESS
 */
 type SMSTemplatesByTemplateIDDeleteOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSTemplatesByTemplateIDDeleteOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSTemplatesByTemplateIDDeleteBadRequest() *SMSTemplatesByTemplateIDDele
 BAD_REQUEST
 */
 type SMSTemplatesByTemplateIDDeleteBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSTemplatesByTemplateIDDeleteBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSTemplatesByTemplateIDDeleteUnauthorized() *SMSTemplatesByTemplateIDDe
 UNAUTHORIZED
 */
 type SMSTemplatesByTemplateIDDeleteUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSTemplatesByTemplateIDDeleteUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSTemplatesByTemplateIDDeleteForbidden() *SMSTemplatesByTemplateIDDelet
 FORBIDDEN
 */
 type SMSTemplatesByTemplateIDDeleteForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSTemplatesByTemplateIDDeleteForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSTemplatesByTemplateIDDeleteNotFound() *SMSTemplatesByTemplateIDDelete
 NOT_FOUND
 */
 type SMSTemplatesByTemplateIDDeleteNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSTemplatesByTemplateIDDeleteNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSTemplatesByTemplateIDDeleteMethodNotAllowed() *SMSTemplatesByTemplate
 METHOD_NOT_FOUND
 */
 type SMSTemplatesByTemplateIDDeleteMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSTemplatesByTemplateIDDeleteMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSTemplatesByTemplateIDDeleteTooManyRequests() *SMSTemplatesByTemplateI
 TOO_MANY_REQUESTS
 */
 type SMSTemplatesByTemplateIDDeleteTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSTemplatesByTemplateIDDeleteTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSTemplatesByTemplateIDDeleteDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms templates by template Id delete default response

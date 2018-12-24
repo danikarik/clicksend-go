@@ -94,7 +94,7 @@ func NewEmailHistoryGetOK() *EmailHistoryGetOK {
 SUCCESS
 */
 type EmailHistoryGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailHistoryGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewEmailHistoryGetBadRequest() *EmailHistoryGetBadRequest {
 BAD_REQUEST
 */
 type EmailHistoryGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailHistoryGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewEmailHistoryGetUnauthorized() *EmailHistoryGetUnauthorized {
 UNAUTHORIZED
 */
 type EmailHistoryGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailHistoryGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewEmailHistoryGetForbidden() *EmailHistoryGetForbidden {
 FORBIDDEN
 */
 type EmailHistoryGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailHistoryGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewEmailHistoryGetNotFound() *EmailHistoryGetNotFound {
 NOT_FOUND
 */
 type EmailHistoryGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailHistoryGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewEmailHistoryGetMethodNotAllowed() *EmailHistoryGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type EmailHistoryGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailHistoryGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewEmailHistoryGetTooManyRequests() *EmailHistoryGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type EmailHistoryGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailHistoryGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type EmailHistoryGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the email history get default response

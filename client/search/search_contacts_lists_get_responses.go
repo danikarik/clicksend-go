@@ -94,7 +94,7 @@ func NewSearchContactsListsGetOK() *SearchContactsListsGetOK {
 SUCCESS
 */
 type SearchContactsListsGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SearchContactsListsGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewSearchContactsListsGetBadRequest() *SearchContactsListsGetBadRequest {
 BAD_REQUEST
 */
 type SearchContactsListsGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SearchContactsListsGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSearchContactsListsGetUnauthorized() *SearchContactsListsGetUnauthorized
 UNAUTHORIZED
 */
 type SearchContactsListsGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SearchContactsListsGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSearchContactsListsGetForbidden() *SearchContactsListsGetForbidden {
 FORBIDDEN
 */
 type SearchContactsListsGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SearchContactsListsGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSearchContactsListsGetNotFound() *SearchContactsListsGetNotFound {
 NOT_FOUND
 */
 type SearchContactsListsGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SearchContactsListsGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSearchContactsListsGetMethodNotAllowed() *SearchContactsListsGetMethodNo
 METHOD_NOT_FOUND
 */
 type SearchContactsListsGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SearchContactsListsGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSearchContactsListsGetTooManyRequests() *SearchContactsListsGetTooManyRe
 TOO_MANY_REQUESTS
 */
 type SearchContactsListsGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SearchContactsListsGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SearchContactsListsGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the search contacts lists get default response

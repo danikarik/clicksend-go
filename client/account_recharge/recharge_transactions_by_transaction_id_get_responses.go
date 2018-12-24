@@ -94,7 +94,7 @@ func NewRechargeTransactionsByTransactionIDGetOK() *RechargeTransactionsByTransa
 SUCCESS
 */
 type RechargeTransactionsByTransactionIDGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeTransactionsByTransactionIDGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewRechargeTransactionsByTransactionIDGetBadRequest() *RechargeTransactions
 BAD_REQUEST
 */
 type RechargeTransactionsByTransactionIDGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeTransactionsByTransactionIDGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewRechargeTransactionsByTransactionIDGetUnauthorized() *RechargeTransactio
 UNAUTHORIZED
 */
 type RechargeTransactionsByTransactionIDGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeTransactionsByTransactionIDGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewRechargeTransactionsByTransactionIDGetForbidden() *RechargeTransactionsB
 FORBIDDEN
 */
 type RechargeTransactionsByTransactionIDGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeTransactionsByTransactionIDGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewRechargeTransactionsByTransactionIDGetNotFound() *RechargeTransactionsBy
 NOT_FOUND
 */
 type RechargeTransactionsByTransactionIDGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeTransactionsByTransactionIDGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewRechargeTransactionsByTransactionIDGetMethodNotAllowed() *RechargeTransa
 METHOD_NOT_FOUND
 */
 type RechargeTransactionsByTransactionIDGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeTransactionsByTransactionIDGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewRechargeTransactionsByTransactionIDGetTooManyRequests() *RechargeTransac
 TOO_MANY_REQUESTS
 */
 type RechargeTransactionsByTransactionIDGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeTransactionsByTransactionIDGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type RechargeTransactionsByTransactionIDGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the recharge transactions by transaction Id get default response

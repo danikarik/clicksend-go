@@ -94,7 +94,7 @@ func NewSpecificAllowedEmailAddressDeleteOK() *SpecificAllowedEmailAddressDelete
 SUCCESS
 */
 type SpecificAllowedEmailAddressDeleteOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SpecificAllowedEmailAddressDeleteOK) Error() string {
@@ -121,7 +121,7 @@ func NewSpecificAllowedEmailAddressDeleteBadRequest() *SpecificAllowedEmailAddre
 BAD_REQUEST
 */
 type SpecificAllowedEmailAddressDeleteBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SpecificAllowedEmailAddressDeleteBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSpecificAllowedEmailAddressDeleteUnauthorized() *SpecificAllowedEmailAdd
 UNAUTHORIZED
 */
 type SpecificAllowedEmailAddressDeleteUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SpecificAllowedEmailAddressDeleteUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSpecificAllowedEmailAddressDeleteForbidden() *SpecificAllowedEmailAddres
 FORBIDDEN
 */
 type SpecificAllowedEmailAddressDeleteForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SpecificAllowedEmailAddressDeleteForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSpecificAllowedEmailAddressDeleteNotFound() *SpecificAllowedEmailAddress
 NOT_FOUND
 */
 type SpecificAllowedEmailAddressDeleteNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SpecificAllowedEmailAddressDeleteNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSpecificAllowedEmailAddressDeleteMethodNotAllowed() *SpecificAllowedEmai
 METHOD_NOT_FOUND
 */
 type SpecificAllowedEmailAddressDeleteMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SpecificAllowedEmailAddressDeleteMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSpecificAllowedEmailAddressDeleteTooManyRequests() *SpecificAllowedEmail
 TOO_MANY_REQUESTS
 */
 type SpecificAllowedEmailAddressDeleteTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SpecificAllowedEmailAddressDeleteTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SpecificAllowedEmailAddressDeleteDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the specific allowed email address delete default response

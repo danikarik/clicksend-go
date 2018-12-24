@@ -94,7 +94,7 @@ func NewDetectAddressPostOK() *DetectAddressPostOK {
 SUCCESS
 */
 type DetectAddressPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *DetectAddressPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewDetectAddressPostBadRequest() *DetectAddressPostBadRequest {
 BAD_REQUEST
 */
 type DetectAddressPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *DetectAddressPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewDetectAddressPostUnauthorized() *DetectAddressPostUnauthorized {
 UNAUTHORIZED
 */
 type DetectAddressPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *DetectAddressPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewDetectAddressPostForbidden() *DetectAddressPostForbidden {
 FORBIDDEN
 */
 type DetectAddressPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *DetectAddressPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewDetectAddressPostNotFound() *DetectAddressPostNotFound {
 NOT_FOUND
 */
 type DetectAddressPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *DetectAddressPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewDetectAddressPostMethodNotAllowed() *DetectAddressPostMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type DetectAddressPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *DetectAddressPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewDetectAddressPostTooManyRequests() *DetectAddressPostTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type DetectAddressPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *DetectAddressPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type DetectAddressPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the detect address post default response

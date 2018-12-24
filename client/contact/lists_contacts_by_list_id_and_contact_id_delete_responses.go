@@ -94,7 +94,7 @@ func NewListsContactsByListIDAndContactIDDeleteOK() *ListsContactsByListIDAndCon
 SUCCESS
 */
 type ListsContactsByListIDAndContactIDDeleteOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDAndContactIDDeleteOK) Error() string {
@@ -121,7 +121,7 @@ func NewListsContactsByListIDAndContactIDDeleteBadRequest() *ListsContactsByList
 BAD_REQUEST
 */
 type ListsContactsByListIDAndContactIDDeleteBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDAndContactIDDeleteBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewListsContactsByListIDAndContactIDDeleteUnauthorized() *ListsContactsByLi
 UNAUTHORIZED
 */
 type ListsContactsByListIDAndContactIDDeleteUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDAndContactIDDeleteUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewListsContactsByListIDAndContactIDDeleteForbidden() *ListsContactsByListI
 FORBIDDEN
 */
 type ListsContactsByListIDAndContactIDDeleteForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDAndContactIDDeleteForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewListsContactsByListIDAndContactIDDeleteNotFound() *ListsContactsByListID
 NOT_FOUND
 */
 type ListsContactsByListIDAndContactIDDeleteNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDAndContactIDDeleteNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewListsContactsByListIDAndContactIDDeleteMethodNotAllowed() *ListsContacts
 METHOD_NOT_FOUND
 */
 type ListsContactsByListIDAndContactIDDeleteMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDAndContactIDDeleteMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewListsContactsByListIDAndContactIDDeleteTooManyRequests() *ListsContactsB
 TOO_MANY_REQUESTS
 */
 type ListsContactsByListIDAndContactIDDeleteTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsContactsByListIDAndContactIDDeleteTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ListsContactsByListIDAndContactIDDeleteDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the lists contacts by list Id and contact Id delete default response

@@ -94,7 +94,7 @@ func NewEmailDeliveryReceiptAutomationGetOK() *EmailDeliveryReceiptAutomationGet
 SUCCESS
 */
 type EmailDeliveryReceiptAutomationGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailDeliveryReceiptAutomationGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewEmailDeliveryReceiptAutomationGetBadRequest() *EmailDeliveryReceiptAutom
 BAD_REQUEST
 */
 type EmailDeliveryReceiptAutomationGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailDeliveryReceiptAutomationGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewEmailDeliveryReceiptAutomationGetUnauthorized() *EmailDeliveryReceiptAut
 UNAUTHORIZED
 */
 type EmailDeliveryReceiptAutomationGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailDeliveryReceiptAutomationGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewEmailDeliveryReceiptAutomationGetForbidden() *EmailDeliveryReceiptAutoma
 FORBIDDEN
 */
 type EmailDeliveryReceiptAutomationGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailDeliveryReceiptAutomationGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewEmailDeliveryReceiptAutomationGetNotFound() *EmailDeliveryReceiptAutomat
 NOT_FOUND
 */
 type EmailDeliveryReceiptAutomationGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailDeliveryReceiptAutomationGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewEmailDeliveryReceiptAutomationGetMethodNotAllowed() *EmailDeliveryReceip
 METHOD_NOT_FOUND
 */
 type EmailDeliveryReceiptAutomationGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailDeliveryReceiptAutomationGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewEmailDeliveryReceiptAutomationGetTooManyRequests() *EmailDeliveryReceipt
 TOO_MANY_REQUESTS
 */
 type EmailDeliveryReceiptAutomationGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailDeliveryReceiptAutomationGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type EmailDeliveryReceiptAutomationGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the email delivery receipt automation get default response

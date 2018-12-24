@@ -94,7 +94,7 @@ func NewVoicePricePostOK() *VoicePricePostOK {
 SUCCESS
 */
 type VoicePricePostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoicePricePostOK) Error() string {
@@ -121,7 +121,7 @@ func NewVoicePricePostBadRequest() *VoicePricePostBadRequest {
 BAD_REQUEST
 */
 type VoicePricePostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoicePricePostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewVoicePricePostUnauthorized() *VoicePricePostUnauthorized {
 UNAUTHORIZED
 */
 type VoicePricePostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoicePricePostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewVoicePricePostForbidden() *VoicePricePostForbidden {
 FORBIDDEN
 */
 type VoicePricePostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoicePricePostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewVoicePricePostNotFound() *VoicePricePostNotFound {
 NOT_FOUND
 */
 type VoicePricePostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoicePricePostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewVoicePricePostMethodNotAllowed() *VoicePricePostMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type VoicePricePostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoicePricePostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewVoicePricePostTooManyRequests() *VoicePricePostTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type VoicePricePostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoicePricePostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type VoicePricePostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the voice price post default response

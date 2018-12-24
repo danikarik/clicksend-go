@@ -94,7 +94,7 @@ func NewPostReturnAddressesByReturnAddressIDPutOK() *PostReturnAddressesByReturn
 SUCCESS
 */
 type PostReturnAddressesByReturnAddressIDPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesByReturnAddressIDPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewPostReturnAddressesByReturnAddressIDPutBadRequest() *PostReturnAddresses
 BAD_REQUEST
 */
 type PostReturnAddressesByReturnAddressIDPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesByReturnAddressIDPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewPostReturnAddressesByReturnAddressIDPutUnauthorized() *PostReturnAddress
 UNAUTHORIZED
 */
 type PostReturnAddressesByReturnAddressIDPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesByReturnAddressIDPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewPostReturnAddressesByReturnAddressIDPutForbidden() *PostReturnAddressesB
 FORBIDDEN
 */
 type PostReturnAddressesByReturnAddressIDPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesByReturnAddressIDPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewPostReturnAddressesByReturnAddressIDPutNotFound() *PostReturnAddressesBy
 NOT_FOUND
 */
 type PostReturnAddressesByReturnAddressIDPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesByReturnAddressIDPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewPostReturnAddressesByReturnAddressIDPutMethodNotAllowed() *PostReturnAdd
 METHOD_NOT_FOUND
 */
 type PostReturnAddressesByReturnAddressIDPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesByReturnAddressIDPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewPostReturnAddressesByReturnAddressIDPutTooManyRequests() *PostReturnAddr
 TOO_MANY_REQUESTS
 */
 type PostReturnAddressesByReturnAddressIDPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesByReturnAddressIDPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type PostReturnAddressesByReturnAddressIDPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the post return addresses by return address Id put default response

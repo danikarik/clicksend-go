@@ -94,7 +94,7 @@ func NewAccountUseageBySubaccountGetOK() *AccountUseageBySubaccountGetOK {
 SUCCESS
 */
 type AccountUseageBySubaccountGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountUseageBySubaccountGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewAccountUseageBySubaccountGetBadRequest() *AccountUseageBySubaccountGetBa
 BAD_REQUEST
 */
 type AccountUseageBySubaccountGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountUseageBySubaccountGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewAccountUseageBySubaccountGetUnauthorized() *AccountUseageBySubaccountGet
 UNAUTHORIZED
 */
 type AccountUseageBySubaccountGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountUseageBySubaccountGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewAccountUseageBySubaccountGetForbidden() *AccountUseageBySubaccountGetFor
 FORBIDDEN
 */
 type AccountUseageBySubaccountGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountUseageBySubaccountGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewAccountUseageBySubaccountGetNotFound() *AccountUseageBySubaccountGetNotF
 NOT_FOUND
 */
 type AccountUseageBySubaccountGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountUseageBySubaccountGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewAccountUseageBySubaccountGetMethodNotAllowed() *AccountUseageBySubaccoun
 METHOD_NOT_FOUND
 */
 type AccountUseageBySubaccountGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountUseageBySubaccountGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewAccountUseageBySubaccountGetTooManyRequests() *AccountUseageBySubaccount
 TOO_MANY_REQUESTS
 */
 type AccountUseageBySubaccountGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountUseageBySubaccountGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type AccountUseageBySubaccountGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the account useage by subaccount get default response

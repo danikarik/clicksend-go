@@ -94,7 +94,7 @@ func NewStatisticsSMSGetOK() *StatisticsSMSGetOK {
 SUCCESS
 */
 type StatisticsSMSGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *StatisticsSMSGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewStatisticsSMSGetBadRequest() *StatisticsSMSGetBadRequest {
 BAD_REQUEST
 */
 type StatisticsSMSGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *StatisticsSMSGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewStatisticsSMSGetUnauthorized() *StatisticsSMSGetUnauthorized {
 UNAUTHORIZED
 */
 type StatisticsSMSGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *StatisticsSMSGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewStatisticsSMSGetForbidden() *StatisticsSMSGetForbidden {
 FORBIDDEN
 */
 type StatisticsSMSGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *StatisticsSMSGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewStatisticsSMSGetNotFound() *StatisticsSMSGetNotFound {
 NOT_FOUND
 */
 type StatisticsSMSGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *StatisticsSMSGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewStatisticsSMSGetMethodNotAllowed() *StatisticsSMSGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type StatisticsSMSGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *StatisticsSMSGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewStatisticsSMSGetTooManyRequests() *StatisticsSMSGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type StatisticsSMSGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *StatisticsSMSGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type StatisticsSMSGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the statistics Sms get default response

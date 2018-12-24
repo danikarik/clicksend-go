@@ -94,7 +94,7 @@ func NewResellerAccountsPostOK() *ResellerAccountsPostOK {
 SUCCESS
 */
 type ResellerAccountsPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewResellerAccountsPostBadRequest() *ResellerAccountsPostBadRequest {
 BAD_REQUEST
 */
 type ResellerAccountsPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewResellerAccountsPostUnauthorized() *ResellerAccountsPostUnauthorized {
 UNAUTHORIZED
 */
 type ResellerAccountsPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewResellerAccountsPostForbidden() *ResellerAccountsPostForbidden {
 FORBIDDEN
 */
 type ResellerAccountsPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewResellerAccountsPostNotFound() *ResellerAccountsPostNotFound {
 NOT_FOUND
 */
 type ResellerAccountsPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewResellerAccountsPostMethodNotAllowed() *ResellerAccountsPostMethodNotAll
 METHOD_NOT_FOUND
 */
 type ResellerAccountsPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewResellerAccountsPostTooManyRequests() *ResellerAccountsPostTooManyReques
 TOO_MANY_REQUESTS
 */
 type ResellerAccountsPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ResellerAccountsPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ResellerAccountsPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the reseller accounts post default response

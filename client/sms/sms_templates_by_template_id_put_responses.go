@@ -94,7 +94,7 @@ func NewSMSTemplatesByTemplateIDPutOK() *SMSTemplatesByTemplateIDPutOK {
 SUCCESS
 */
 type SMSTemplatesByTemplateIDPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSTemplatesByTemplateIDPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSTemplatesByTemplateIDPutBadRequest() *SMSTemplatesByTemplateIDPutBadR
 BAD_REQUEST
 */
 type SMSTemplatesByTemplateIDPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSTemplatesByTemplateIDPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSTemplatesByTemplateIDPutUnauthorized() *SMSTemplatesByTemplateIDPutUn
 UNAUTHORIZED
 */
 type SMSTemplatesByTemplateIDPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSTemplatesByTemplateIDPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSTemplatesByTemplateIDPutForbidden() *SMSTemplatesByTemplateIDPutForbi
 FORBIDDEN
 */
 type SMSTemplatesByTemplateIDPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSTemplatesByTemplateIDPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSTemplatesByTemplateIDPutNotFound() *SMSTemplatesByTemplateIDPutNotFou
 NOT_FOUND
 */
 type SMSTemplatesByTemplateIDPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSTemplatesByTemplateIDPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSTemplatesByTemplateIDPutMethodNotAllowed() *SMSTemplatesByTemplateIDP
 METHOD_NOT_FOUND
 */
 type SMSTemplatesByTemplateIDPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSTemplatesByTemplateIDPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSTemplatesByTemplateIDPutTooManyRequests() *SMSTemplatesByTemplateIDPu
 TOO_MANY_REQUESTS
 */
 type SMSTemplatesByTemplateIDPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSTemplatesByTemplateIDPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSTemplatesByTemplateIDPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms templates by template Id put default response

@@ -94,7 +94,7 @@ func NewSubaccountsRegenAPIKeyBySubaccountIDPutOK() *SubaccountsRegenAPIKeyBySub
 SUCCESS
 */
 type SubaccountsRegenAPIKeyBySubaccountIDPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsRegenAPIKeyBySubaccountIDPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewSubaccountsRegenAPIKeyBySubaccountIDPutBadRequest() *SubaccountsRegenAPI
 BAD_REQUEST
 */
 type SubaccountsRegenAPIKeyBySubaccountIDPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsRegenAPIKeyBySubaccountIDPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSubaccountsRegenAPIKeyBySubaccountIDPutUnauthorized() *SubaccountsRegenA
 UNAUTHORIZED
 */
 type SubaccountsRegenAPIKeyBySubaccountIDPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsRegenAPIKeyBySubaccountIDPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSubaccountsRegenAPIKeyBySubaccountIDPutForbidden() *SubaccountsRegenAPIK
 FORBIDDEN
 */
 type SubaccountsRegenAPIKeyBySubaccountIDPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsRegenAPIKeyBySubaccountIDPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSubaccountsRegenAPIKeyBySubaccountIDPutNotFound() *SubaccountsRegenAPIKe
 NOT_FOUND
 */
 type SubaccountsRegenAPIKeyBySubaccountIDPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsRegenAPIKeyBySubaccountIDPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSubaccountsRegenAPIKeyBySubaccountIDPutMethodNotAllowed() *SubaccountsRe
 METHOD_NOT_FOUND
 */
 type SubaccountsRegenAPIKeyBySubaccountIDPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsRegenAPIKeyBySubaccountIDPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSubaccountsRegenAPIKeyBySubaccountIDPutTooManyRequests() *SubaccountsReg
 TOO_MANY_REQUESTS
 */
 type SubaccountsRegenAPIKeyBySubaccountIDPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsRegenAPIKeyBySubaccountIDPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SubaccountsRegenAPIKeyBySubaccountIDPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the subaccounts regen Api key by subaccount Id put default response

@@ -94,7 +94,7 @@ func NewAllowedEmailAddressPostOK() *AllowedEmailAddressPostOK {
 SUCCESS
 */
 type AllowedEmailAddressPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AllowedEmailAddressPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewAllowedEmailAddressPostBadRequest() *AllowedEmailAddressPostBadRequest {
 BAD_REQUEST
 */
 type AllowedEmailAddressPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AllowedEmailAddressPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewAllowedEmailAddressPostUnauthorized() *AllowedEmailAddressPostUnauthoriz
 UNAUTHORIZED
 */
 type AllowedEmailAddressPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AllowedEmailAddressPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewAllowedEmailAddressPostForbidden() *AllowedEmailAddressPostForbidden {
 FORBIDDEN
 */
 type AllowedEmailAddressPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AllowedEmailAddressPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewAllowedEmailAddressPostNotFound() *AllowedEmailAddressPostNotFound {
 NOT_FOUND
 */
 type AllowedEmailAddressPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AllowedEmailAddressPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewAllowedEmailAddressPostMethodNotAllowed() *AllowedEmailAddressPostMethod
 METHOD_NOT_FOUND
 */
 type AllowedEmailAddressPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AllowedEmailAddressPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewAllowedEmailAddressPostTooManyRequests() *AllowedEmailAddressPostTooMany
 TOO_MANY_REQUESTS
 */
 type AllowedEmailAddressPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AllowedEmailAddressPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type AllowedEmailAddressPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the allowed email address post default response

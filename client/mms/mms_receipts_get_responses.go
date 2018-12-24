@@ -94,7 +94,7 @@ func NewMMSReceiptsGetOK() *MMSReceiptsGetOK {
 SUCCESS
 */
 type MMSReceiptsGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSReceiptsGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewMMSReceiptsGetBadRequest() *MMSReceiptsGetBadRequest {
 BAD_REQUEST
 */
 type MMSReceiptsGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSReceiptsGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewMMSReceiptsGetUnauthorized() *MMSReceiptsGetUnauthorized {
 UNAUTHORIZED
 */
 type MMSReceiptsGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSReceiptsGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewMMSReceiptsGetForbidden() *MMSReceiptsGetForbidden {
 FORBIDDEN
 */
 type MMSReceiptsGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSReceiptsGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewMMSReceiptsGetNotFound() *MMSReceiptsGetNotFound {
 NOT_FOUND
 */
 type MMSReceiptsGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSReceiptsGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewMMSReceiptsGetMethodNotAllowed() *MMSReceiptsGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type MMSReceiptsGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSReceiptsGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewMMSReceiptsGetTooManyRequests() *MMSReceiptsGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type MMSReceiptsGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSReceiptsGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type MMSReceiptsGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Mms receipts get default response

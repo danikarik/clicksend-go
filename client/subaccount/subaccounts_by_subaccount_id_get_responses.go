@@ -94,7 +94,7 @@ func NewSubaccountsBySubaccountIDGetOK() *SubaccountsBySubaccountIDGetOK {
 SUCCESS
 */
 type SubaccountsBySubaccountIDGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsBySubaccountIDGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewSubaccountsBySubaccountIDGetBadRequest() *SubaccountsBySubaccountIDGetBa
 BAD_REQUEST
 */
 type SubaccountsBySubaccountIDGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsBySubaccountIDGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSubaccountsBySubaccountIDGetUnauthorized() *SubaccountsBySubaccountIDGet
 UNAUTHORIZED
 */
 type SubaccountsBySubaccountIDGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsBySubaccountIDGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSubaccountsBySubaccountIDGetForbidden() *SubaccountsBySubaccountIDGetFor
 FORBIDDEN
 */
 type SubaccountsBySubaccountIDGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsBySubaccountIDGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSubaccountsBySubaccountIDGetNotFound() *SubaccountsBySubaccountIDGetNotF
 NOT_FOUND
 */
 type SubaccountsBySubaccountIDGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsBySubaccountIDGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSubaccountsBySubaccountIDGetMethodNotAllowed() *SubaccountsBySubaccountI
 METHOD_NOT_FOUND
 */
 type SubaccountsBySubaccountIDGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsBySubaccountIDGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSubaccountsBySubaccountIDGetTooManyRequests() *SubaccountsBySubaccountID
 TOO_MANY_REQUESTS
 */
 type SubaccountsBySubaccountIDGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SubaccountsBySubaccountIDGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SubaccountsBySubaccountIDGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the subaccounts by subaccount Id get default response

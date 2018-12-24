@@ -94,7 +94,7 @@ func NewEmailCampaignHistoryGetOK() *EmailCampaignHistoryGetOK {
 SUCCESS
 */
 type EmailCampaignHistoryGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignHistoryGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewEmailCampaignHistoryGetBadRequest() *EmailCampaignHistoryGetBadRequest {
 BAD_REQUEST
 */
 type EmailCampaignHistoryGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignHistoryGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewEmailCampaignHistoryGetUnauthorized() *EmailCampaignHistoryGetUnauthoriz
 UNAUTHORIZED
 */
 type EmailCampaignHistoryGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignHistoryGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewEmailCampaignHistoryGetForbidden() *EmailCampaignHistoryGetForbidden {
 FORBIDDEN
 */
 type EmailCampaignHistoryGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignHistoryGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewEmailCampaignHistoryGetNotFound() *EmailCampaignHistoryGetNotFound {
 NOT_FOUND
 */
 type EmailCampaignHistoryGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignHistoryGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewEmailCampaignHistoryGetMethodNotAllowed() *EmailCampaignHistoryGetMethod
 METHOD_NOT_FOUND
 */
 type EmailCampaignHistoryGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignHistoryGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewEmailCampaignHistoryGetTooManyRequests() *EmailCampaignHistoryGetTooMany
 TOO_MANY_REQUESTS
 */
 type EmailCampaignHistoryGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignHistoryGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type EmailCampaignHistoryGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the email campaign history get default response

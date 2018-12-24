@@ -94,7 +94,7 @@ func NewVoiceCancelAllPutOK() *VoiceCancelAllPutOK {
 SUCCESS
 */
 type VoiceCancelAllPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceCancelAllPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewVoiceCancelAllPutBadRequest() *VoiceCancelAllPutBadRequest {
 BAD_REQUEST
 */
 type VoiceCancelAllPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceCancelAllPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewVoiceCancelAllPutUnauthorized() *VoiceCancelAllPutUnauthorized {
 UNAUTHORIZED
 */
 type VoiceCancelAllPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceCancelAllPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewVoiceCancelAllPutForbidden() *VoiceCancelAllPutForbidden {
 FORBIDDEN
 */
 type VoiceCancelAllPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceCancelAllPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewVoiceCancelAllPutNotFound() *VoiceCancelAllPutNotFound {
 NOT_FOUND
 */
 type VoiceCancelAllPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceCancelAllPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewVoiceCancelAllPutMethodNotAllowed() *VoiceCancelAllPutMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type VoiceCancelAllPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceCancelAllPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewVoiceCancelAllPutTooManyRequests() *VoiceCancelAllPutTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type VoiceCancelAllPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *VoiceCancelAllPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type VoiceCancelAllPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the voice cancel all put default response

@@ -94,7 +94,7 @@ func NewMMSReceiptsReadPutOK() *MMSReceiptsReadPutOK {
 SUCCESS
 */
 type MMSReceiptsReadPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSReceiptsReadPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewMMSReceiptsReadPutBadRequest() *MMSReceiptsReadPutBadRequest {
 BAD_REQUEST
 */
 type MMSReceiptsReadPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSReceiptsReadPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewMMSReceiptsReadPutUnauthorized() *MMSReceiptsReadPutUnauthorized {
 UNAUTHORIZED
 */
 type MMSReceiptsReadPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSReceiptsReadPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewMMSReceiptsReadPutForbidden() *MMSReceiptsReadPutForbidden {
 FORBIDDEN
 */
 type MMSReceiptsReadPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSReceiptsReadPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewMMSReceiptsReadPutNotFound() *MMSReceiptsReadPutNotFound {
 NOT_FOUND
 */
 type MMSReceiptsReadPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSReceiptsReadPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewMMSReceiptsReadPutMethodNotAllowed() *MMSReceiptsReadPutMethodNotAllowed
 METHOD_NOT_FOUND
 */
 type MMSReceiptsReadPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSReceiptsReadPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewMMSReceiptsReadPutTooManyRequests() *MMSReceiptsReadPutTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type MMSReceiptsReadPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSReceiptsReadPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type MMSReceiptsReadPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Mms receipts read put default response

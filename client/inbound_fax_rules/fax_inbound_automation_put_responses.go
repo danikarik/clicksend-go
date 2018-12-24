@@ -94,7 +94,7 @@ func NewFAXInboundAutomationPutOK() *FAXInboundAutomationPutOK {
 SUCCESS
 */
 type FAXInboundAutomationPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewFAXInboundAutomationPutBadRequest() *FAXInboundAutomationPutBadRequest {
 BAD_REQUEST
 */
 type FAXInboundAutomationPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewFAXInboundAutomationPutUnauthorized() *FAXInboundAutomationPutUnauthoriz
 UNAUTHORIZED
 */
 type FAXInboundAutomationPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewFAXInboundAutomationPutForbidden() *FAXInboundAutomationPutForbidden {
 FORBIDDEN
 */
 type FAXInboundAutomationPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewFAXInboundAutomationPutNotFound() *FAXInboundAutomationPutNotFound {
 NOT_FOUND
 */
 type FAXInboundAutomationPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewFAXInboundAutomationPutMethodNotAllowed() *FAXInboundAutomationPutMethod
 METHOD_NOT_FOUND
 */
 type FAXInboundAutomationPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewFAXInboundAutomationPutTooManyRequests() *FAXInboundAutomationPutTooMany
 TOO_MANY_REQUESTS
 */
 type FAXInboundAutomationPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXInboundAutomationPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type FAXInboundAutomationPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Fax inbound automation put default response

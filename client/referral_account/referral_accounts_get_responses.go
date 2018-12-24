@@ -94,7 +94,7 @@ func NewReferralAccountsGetOK() *ReferralAccountsGetOK {
 SUCCESS
 */
 type ReferralAccountsGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ReferralAccountsGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewReferralAccountsGetBadRequest() *ReferralAccountsGetBadRequest {
 BAD_REQUEST
 */
 type ReferralAccountsGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ReferralAccountsGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewReferralAccountsGetUnauthorized() *ReferralAccountsGetUnauthorized {
 UNAUTHORIZED
 */
 type ReferralAccountsGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ReferralAccountsGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewReferralAccountsGetForbidden() *ReferralAccountsGetForbidden {
 FORBIDDEN
 */
 type ReferralAccountsGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ReferralAccountsGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewReferralAccountsGetNotFound() *ReferralAccountsGetNotFound {
 NOT_FOUND
 */
 type ReferralAccountsGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ReferralAccountsGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewReferralAccountsGetMethodNotAllowed() *ReferralAccountsGetMethodNotAllow
 METHOD_NOT_FOUND
 */
 type ReferralAccountsGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ReferralAccountsGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewReferralAccountsGetTooManyRequests() *ReferralAccountsGetTooManyRequests
 TOO_MANY_REQUESTS
 */
 type ReferralAccountsGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ReferralAccountsGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ReferralAccountsGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the referral accounts get default response

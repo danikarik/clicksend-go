@@ -94,7 +94,7 @@ func NewSMSEmailSMSGetOK() *SMSEmailSMSGetOK {
 SUCCESS
 */
 type SMSEmailSMSGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSEmailSMSGetBadRequest() *SMSEmailSMSGetBadRequest {
 BAD_REQUEST
 */
 type SMSEmailSMSGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSEmailSMSGetUnauthorized() *SMSEmailSMSGetUnauthorized {
 UNAUTHORIZED
 */
 type SMSEmailSMSGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSEmailSMSGetForbidden() *SMSEmailSMSGetForbidden {
 FORBIDDEN
 */
 type SMSEmailSMSGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSEmailSMSGetNotFound() *SMSEmailSMSGetNotFound {
 NOT_FOUND
 */
 type SMSEmailSMSGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSEmailSMSGetMethodNotAllowed() *SMSEmailSMSGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type SMSEmailSMSGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSEmailSMSGetTooManyRequests() *SMSEmailSMSGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type SMSEmailSMSGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSEmailSMSGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSEmailSMSGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms email Sms get default response

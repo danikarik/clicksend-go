@@ -94,7 +94,7 @@ func NewEmailCampaignGetOK() *EmailCampaignGetOK {
 SUCCESS
 */
 type EmailCampaignGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewEmailCampaignGetBadRequest() *EmailCampaignGetBadRequest {
 BAD_REQUEST
 */
 type EmailCampaignGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewEmailCampaignGetUnauthorized() *EmailCampaignGetUnauthorized {
 UNAUTHORIZED
 */
 type EmailCampaignGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewEmailCampaignGetForbidden() *EmailCampaignGetForbidden {
 FORBIDDEN
 */
 type EmailCampaignGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewEmailCampaignGetNotFound() *EmailCampaignGetNotFound {
 NOT_FOUND
 */
 type EmailCampaignGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewEmailCampaignGetMethodNotAllowed() *EmailCampaignGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type EmailCampaignGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewEmailCampaignGetTooManyRequests() *EmailCampaignGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type EmailCampaignGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type EmailCampaignGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the email campaign get default response

@@ -94,7 +94,7 @@ func NewAccountVerifyVerifyByActivationTokenPutOK() *AccountVerifyVerifyByActiva
 SUCCESS
 */
 type AccountVerifyVerifyByActivationTokenPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountVerifyVerifyByActivationTokenPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewAccountVerifyVerifyByActivationTokenPutBadRequest() *AccountVerifyVerify
 BAD_REQUEST
 */
 type AccountVerifyVerifyByActivationTokenPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountVerifyVerifyByActivationTokenPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewAccountVerifyVerifyByActivationTokenPutUnauthorized() *AccountVerifyVeri
 UNAUTHORIZED
 */
 type AccountVerifyVerifyByActivationTokenPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountVerifyVerifyByActivationTokenPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewAccountVerifyVerifyByActivationTokenPutForbidden() *AccountVerifyVerifyB
 FORBIDDEN
 */
 type AccountVerifyVerifyByActivationTokenPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountVerifyVerifyByActivationTokenPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewAccountVerifyVerifyByActivationTokenPutNotFound() *AccountVerifyVerifyBy
 NOT_FOUND
 */
 type AccountVerifyVerifyByActivationTokenPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountVerifyVerifyByActivationTokenPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewAccountVerifyVerifyByActivationTokenPutMethodNotAllowed() *AccountVerify
 METHOD_NOT_FOUND
 */
 type AccountVerifyVerifyByActivationTokenPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountVerifyVerifyByActivationTokenPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewAccountVerifyVerifyByActivationTokenPutTooManyRequests() *AccountVerifyV
 TOO_MANY_REQUESTS
 */
 type AccountVerifyVerifyByActivationTokenPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountVerifyVerifyByActivationTokenPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type AccountVerifyVerifyByActivationTokenPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the account verify verify by activation token put default response

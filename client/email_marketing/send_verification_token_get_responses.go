@@ -94,7 +94,7 @@ func NewSendVerificationTokenGetOK() *SendVerificationTokenGetOK {
 SUCCESS
 */
 type SendVerificationTokenGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SendVerificationTokenGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewSendVerificationTokenGetBadRequest() *SendVerificationTokenGetBadRequest
 BAD_REQUEST
 */
 type SendVerificationTokenGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SendVerificationTokenGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSendVerificationTokenGetUnauthorized() *SendVerificationTokenGetUnauthor
 UNAUTHORIZED
 */
 type SendVerificationTokenGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SendVerificationTokenGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSendVerificationTokenGetForbidden() *SendVerificationTokenGetForbidden {
 FORBIDDEN
 */
 type SendVerificationTokenGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SendVerificationTokenGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSendVerificationTokenGetNotFound() *SendVerificationTokenGetNotFound {
 NOT_FOUND
 */
 type SendVerificationTokenGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SendVerificationTokenGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSendVerificationTokenGetMethodNotAllowed() *SendVerificationTokenGetMeth
 METHOD_NOT_FOUND
 */
 type SendVerificationTokenGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SendVerificationTokenGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSendVerificationTokenGetTooManyRequests() *SendVerificationTokenGetTooMa
 TOO_MANY_REQUESTS
 */
 type SendVerificationTokenGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SendVerificationTokenGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SendVerificationTokenGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the send verification token get default response

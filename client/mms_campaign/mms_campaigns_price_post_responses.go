@@ -94,7 +94,7 @@ func NewMMSCampaignsPricePostOK() *MMSCampaignsPricePostOK {
 SUCCESS
 */
 type MMSCampaignsPricePostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsPricePostOK) Error() string {
@@ -121,7 +121,7 @@ func NewMMSCampaignsPricePostBadRequest() *MMSCampaignsPricePostBadRequest {
 BAD_REQUEST
 */
 type MMSCampaignsPricePostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsPricePostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewMMSCampaignsPricePostUnauthorized() *MMSCampaignsPricePostUnauthorized {
 UNAUTHORIZED
 */
 type MMSCampaignsPricePostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsPricePostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewMMSCampaignsPricePostForbidden() *MMSCampaignsPricePostForbidden {
 FORBIDDEN
 */
 type MMSCampaignsPricePostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsPricePostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewMMSCampaignsPricePostNotFound() *MMSCampaignsPricePostNotFound {
 NOT_FOUND
 */
 type MMSCampaignsPricePostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsPricePostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewMMSCampaignsPricePostMethodNotAllowed() *MMSCampaignsPricePostMethodNotA
 METHOD_NOT_FOUND
 */
 type MMSCampaignsPricePostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsPricePostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewMMSCampaignsPricePostTooManyRequests() *MMSCampaignsPricePostTooManyRequ
 TOO_MANY_REQUESTS
 */
 type MMSCampaignsPricePostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsPricePostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type MMSCampaignsPricePostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Mms campaigns price post default response

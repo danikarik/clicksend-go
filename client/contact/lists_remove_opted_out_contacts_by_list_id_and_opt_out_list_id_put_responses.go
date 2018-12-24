@@ -94,7 +94,7 @@ func NewListsRemoveOptedOutContactsByListIDAndOptOutListIDPutOK() *ListsRemoveOp
 SUCCESS
 */
 type ListsRemoveOptedOutContactsByListIDAndOptOutListIDPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsRemoveOptedOutContactsByListIDAndOptOutListIDPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewListsRemoveOptedOutContactsByListIDAndOptOutListIDPutBadRequest() *Lists
 BAD_REQUEST
 */
 type ListsRemoveOptedOutContactsByListIDAndOptOutListIDPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsRemoveOptedOutContactsByListIDAndOptOutListIDPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewListsRemoveOptedOutContactsByListIDAndOptOutListIDPutUnauthorized() *Lis
 UNAUTHORIZED
 */
 type ListsRemoveOptedOutContactsByListIDAndOptOutListIDPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsRemoveOptedOutContactsByListIDAndOptOutListIDPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewListsRemoveOptedOutContactsByListIDAndOptOutListIDPutForbidden() *ListsR
 FORBIDDEN
 */
 type ListsRemoveOptedOutContactsByListIDAndOptOutListIDPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsRemoveOptedOutContactsByListIDAndOptOutListIDPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewListsRemoveOptedOutContactsByListIDAndOptOutListIDPutNotFound() *ListsRe
 NOT_FOUND
 */
 type ListsRemoveOptedOutContactsByListIDAndOptOutListIDPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsRemoveOptedOutContactsByListIDAndOptOutListIDPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewListsRemoveOptedOutContactsByListIDAndOptOutListIDPutMethodNotAllowed() 
 METHOD_NOT_FOUND
 */
 type ListsRemoveOptedOutContactsByListIDAndOptOutListIDPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsRemoveOptedOutContactsByListIDAndOptOutListIDPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewListsRemoveOptedOutContactsByListIDAndOptOutListIDPutTooManyRequests() *
 TOO_MANY_REQUESTS
 */
 type ListsRemoveOptedOutContactsByListIDAndOptOutListIDPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsRemoveOptedOutContactsByListIDAndOptOutListIDPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ListsRemoveOptedOutContactsByListIDAndOptOutListIDPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the lists remove opted out contacts by list Id and opt out list Id put default response

@@ -94,7 +94,7 @@ func NewMMSCampaignsGetOK() *MMSCampaignsGetOK {
 SUCCESS
 */
 type MMSCampaignsGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewMMSCampaignsGetBadRequest() *MMSCampaignsGetBadRequest {
 BAD_REQUEST
 */
 type MMSCampaignsGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewMMSCampaignsGetUnauthorized() *MMSCampaignsGetUnauthorized {
 UNAUTHORIZED
 */
 type MMSCampaignsGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewMMSCampaignsGetForbidden() *MMSCampaignsGetForbidden {
 FORBIDDEN
 */
 type MMSCampaignsGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewMMSCampaignsGetNotFound() *MMSCampaignsGetNotFound {
 NOT_FOUND
 */
 type MMSCampaignsGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewMMSCampaignsGetMethodNotAllowed() *MMSCampaignsGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type MMSCampaignsGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewMMSCampaignsGetTooManyRequests() *MMSCampaignsGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type MMSCampaignsGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type MMSCampaignsGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Mms campaigns get default response

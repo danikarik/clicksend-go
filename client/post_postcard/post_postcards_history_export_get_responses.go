@@ -94,7 +94,7 @@ func NewPostPostcardsHistoryExportGetOK() *PostPostcardsHistoryExportGetOK {
 SUCCESS
 */
 type PostPostcardsHistoryExportGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsHistoryExportGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewPostPostcardsHistoryExportGetBadRequest() *PostPostcardsHistoryExportGet
 BAD_REQUEST
 */
 type PostPostcardsHistoryExportGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsHistoryExportGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewPostPostcardsHistoryExportGetUnauthorized() *PostPostcardsHistoryExportG
 UNAUTHORIZED
 */
 type PostPostcardsHistoryExportGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsHistoryExportGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewPostPostcardsHistoryExportGetForbidden() *PostPostcardsHistoryExportGetF
 FORBIDDEN
 */
 type PostPostcardsHistoryExportGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsHistoryExportGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewPostPostcardsHistoryExportGetNotFound() *PostPostcardsHistoryExportGetNo
 NOT_FOUND
 */
 type PostPostcardsHistoryExportGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsHistoryExportGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewPostPostcardsHistoryExportGetMethodNotAllowed() *PostPostcardsHistoryExp
 METHOD_NOT_FOUND
 */
 type PostPostcardsHistoryExportGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsHistoryExportGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewPostPostcardsHistoryExportGetTooManyRequests() *PostPostcardsHistoryExpo
 TOO_MANY_REQUESTS
 */
 type PostPostcardsHistoryExportGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsHistoryExportGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type PostPostcardsHistoryExportGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the post postcards history export get default response

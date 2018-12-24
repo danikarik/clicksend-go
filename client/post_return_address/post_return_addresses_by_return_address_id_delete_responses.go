@@ -94,7 +94,7 @@ func NewPostReturnAddressesByReturnAddressIDDeleteOK() *PostReturnAddressesByRet
 SUCCESS
 */
 type PostReturnAddressesByReturnAddressIDDeleteOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesByReturnAddressIDDeleteOK) Error() string {
@@ -121,7 +121,7 @@ func NewPostReturnAddressesByReturnAddressIDDeleteBadRequest() *PostReturnAddres
 BAD_REQUEST
 */
 type PostReturnAddressesByReturnAddressIDDeleteBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesByReturnAddressIDDeleteBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewPostReturnAddressesByReturnAddressIDDeleteUnauthorized() *PostReturnAddr
 UNAUTHORIZED
 */
 type PostReturnAddressesByReturnAddressIDDeleteUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesByReturnAddressIDDeleteUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewPostReturnAddressesByReturnAddressIDDeleteForbidden() *PostReturnAddress
 FORBIDDEN
 */
 type PostReturnAddressesByReturnAddressIDDeleteForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesByReturnAddressIDDeleteForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewPostReturnAddressesByReturnAddressIDDeleteNotFound() *PostReturnAddresse
 NOT_FOUND
 */
 type PostReturnAddressesByReturnAddressIDDeleteNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesByReturnAddressIDDeleteNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewPostReturnAddressesByReturnAddressIDDeleteMethodNotAllowed() *PostReturn
 METHOD_NOT_FOUND
 */
 type PostReturnAddressesByReturnAddressIDDeleteMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesByReturnAddressIDDeleteMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewPostReturnAddressesByReturnAddressIDDeleteTooManyRequests() *PostReturnA
 TOO_MANY_REQUESTS
 */
 type PostReturnAddressesByReturnAddressIDDeleteTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostReturnAddressesByReturnAddressIDDeleteTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type PostReturnAddressesByReturnAddressIDDeleteDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the post return addresses by return address Id delete default response

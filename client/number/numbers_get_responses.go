@@ -94,7 +94,7 @@ func NewNumbersGetOK() *NumbersGetOK {
 SUCCESS
 */
 type NumbersGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewNumbersGetBadRequest() *NumbersGetBadRequest {
 BAD_REQUEST
 */
 type NumbersGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewNumbersGetUnauthorized() *NumbersGetUnauthorized {
 UNAUTHORIZED
 */
 type NumbersGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewNumbersGetForbidden() *NumbersGetForbidden {
 FORBIDDEN
 */
 type NumbersGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewNumbersGetNotFound() *NumbersGetNotFound {
 NOT_FOUND
 */
 type NumbersGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewNumbersGetMethodNotAllowed() *NumbersGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type NumbersGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewNumbersGetTooManyRequests() *NumbersGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type NumbersGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *NumbersGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type NumbersGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the numbers get default response

@@ -94,7 +94,7 @@ func NewFAXHistoryGetOK() *FAXHistoryGetOK {
 SUCCESS
 */
 type FAXHistoryGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXHistoryGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewFAXHistoryGetBadRequest() *FAXHistoryGetBadRequest {
 BAD_REQUEST
 */
 type FAXHistoryGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXHistoryGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewFAXHistoryGetUnauthorized() *FAXHistoryGetUnauthorized {
 UNAUTHORIZED
 */
 type FAXHistoryGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXHistoryGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewFAXHistoryGetForbidden() *FAXHistoryGetForbidden {
 FORBIDDEN
 */
 type FAXHistoryGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXHistoryGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewFAXHistoryGetNotFound() *FAXHistoryGetNotFound {
 NOT_FOUND
 */
 type FAXHistoryGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXHistoryGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewFAXHistoryGetMethodNotAllowed() *FAXHistoryGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type FAXHistoryGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXHistoryGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewFAXHistoryGetTooManyRequests() *FAXHistoryGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type FAXHistoryGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXHistoryGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type FAXHistoryGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Fax history get default response

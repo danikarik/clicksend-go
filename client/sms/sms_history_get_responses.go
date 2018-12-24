@@ -94,7 +94,7 @@ func NewSMSHistoryGetOK() *SMSHistoryGetOK {
 SUCCESS
 */
 type SMSHistoryGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSHistoryGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSHistoryGetBadRequest() *SMSHistoryGetBadRequest {
 BAD_REQUEST
 */
 type SMSHistoryGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSHistoryGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSHistoryGetUnauthorized() *SMSHistoryGetUnauthorized {
 UNAUTHORIZED
 */
 type SMSHistoryGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSHistoryGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSHistoryGetForbidden() *SMSHistoryGetForbidden {
 FORBIDDEN
 */
 type SMSHistoryGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSHistoryGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSHistoryGetNotFound() *SMSHistoryGetNotFound {
 NOT_FOUND
 */
 type SMSHistoryGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSHistoryGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSHistoryGetMethodNotAllowed() *SMSHistoryGetMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type SMSHistoryGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSHistoryGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSHistoryGetTooManyRequests() *SMSHistoryGetTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type SMSHistoryGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSHistoryGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSHistoryGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms history get default response

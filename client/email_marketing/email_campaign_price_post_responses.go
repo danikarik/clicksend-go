@@ -94,7 +94,7 @@ func NewEmailCampaignPricePostOK() *EmailCampaignPricePostOK {
 SUCCESS
 */
 type EmailCampaignPricePostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignPricePostOK) Error() string {
@@ -121,7 +121,7 @@ func NewEmailCampaignPricePostBadRequest() *EmailCampaignPricePostBadRequest {
 BAD_REQUEST
 */
 type EmailCampaignPricePostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignPricePostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewEmailCampaignPricePostUnauthorized() *EmailCampaignPricePostUnauthorized
 UNAUTHORIZED
 */
 type EmailCampaignPricePostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignPricePostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewEmailCampaignPricePostForbidden() *EmailCampaignPricePostForbidden {
 FORBIDDEN
 */
 type EmailCampaignPricePostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignPricePostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewEmailCampaignPricePostNotFound() *EmailCampaignPricePostNotFound {
 NOT_FOUND
 */
 type EmailCampaignPricePostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignPricePostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewEmailCampaignPricePostMethodNotAllowed() *EmailCampaignPricePostMethodNo
 METHOD_NOT_FOUND
 */
 type EmailCampaignPricePostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignPricePostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewEmailCampaignPricePostTooManyRequests() *EmailCampaignPricePostTooManyRe
 TOO_MANY_REQUESTS
 */
 type EmailCampaignPricePostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailCampaignPricePostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type EmailCampaignPricePostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the email campaign price post default response

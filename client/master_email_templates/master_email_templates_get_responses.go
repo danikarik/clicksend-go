@@ -94,7 +94,7 @@ func NewMasterEmailTemplatesGetOK() *MasterEmailTemplatesGetOK {
 SUCCESS
 */
 type MasterEmailTemplatesGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MasterEmailTemplatesGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewMasterEmailTemplatesGetBadRequest() *MasterEmailTemplatesGetBadRequest {
 BAD_REQUEST
 */
 type MasterEmailTemplatesGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MasterEmailTemplatesGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewMasterEmailTemplatesGetUnauthorized() *MasterEmailTemplatesGetUnauthoriz
 UNAUTHORIZED
 */
 type MasterEmailTemplatesGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MasterEmailTemplatesGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewMasterEmailTemplatesGetForbidden() *MasterEmailTemplatesGetForbidden {
 FORBIDDEN
 */
 type MasterEmailTemplatesGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MasterEmailTemplatesGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewMasterEmailTemplatesGetNotFound() *MasterEmailTemplatesGetNotFound {
 NOT_FOUND
 */
 type MasterEmailTemplatesGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MasterEmailTemplatesGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewMasterEmailTemplatesGetMethodNotAllowed() *MasterEmailTemplatesGetMethod
 METHOD_NOT_FOUND
 */
 type MasterEmailTemplatesGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MasterEmailTemplatesGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewMasterEmailTemplatesGetTooManyRequests() *MasterEmailTemplatesGetTooMany
 TOO_MANY_REQUESTS
 */
 type MasterEmailTemplatesGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MasterEmailTemplatesGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type MasterEmailTemplatesGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the master email templates get default response

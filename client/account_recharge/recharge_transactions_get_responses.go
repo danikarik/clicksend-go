@@ -94,7 +94,7 @@ func NewRechargeTransactionsGetOK() *RechargeTransactionsGetOK {
 SUCCESS
 */
 type RechargeTransactionsGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeTransactionsGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewRechargeTransactionsGetBadRequest() *RechargeTransactionsGetBadRequest {
 BAD_REQUEST
 */
 type RechargeTransactionsGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeTransactionsGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewRechargeTransactionsGetUnauthorized() *RechargeTransactionsGetUnauthoriz
 UNAUTHORIZED
 */
 type RechargeTransactionsGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeTransactionsGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewRechargeTransactionsGetForbidden() *RechargeTransactionsGetForbidden {
 FORBIDDEN
 */
 type RechargeTransactionsGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeTransactionsGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewRechargeTransactionsGetNotFound() *RechargeTransactionsGetNotFound {
 NOT_FOUND
 */
 type RechargeTransactionsGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeTransactionsGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewRechargeTransactionsGetMethodNotAllowed() *RechargeTransactionsGetMethod
 METHOD_NOT_FOUND
 */
 type RechargeTransactionsGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeTransactionsGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewRechargeTransactionsGetTooManyRequests() *RechargeTransactionsGetTooMany
 TOO_MANY_REQUESTS
 */
 type RechargeTransactionsGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *RechargeTransactionsGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type RechargeTransactionsGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the recharge transactions get default response

@@ -94,7 +94,7 @@ func NewListsRemoveDuplicatesByListIDPutOK() *ListsRemoveDuplicatesByListIDPutOK
 SUCCESS
 */
 type ListsRemoveDuplicatesByListIDPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsRemoveDuplicatesByListIDPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewListsRemoveDuplicatesByListIDPutBadRequest() *ListsRemoveDuplicatesByLis
 BAD_REQUEST
 */
 type ListsRemoveDuplicatesByListIDPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsRemoveDuplicatesByListIDPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewListsRemoveDuplicatesByListIDPutUnauthorized() *ListsRemoveDuplicatesByL
 UNAUTHORIZED
 */
 type ListsRemoveDuplicatesByListIDPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsRemoveDuplicatesByListIDPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewListsRemoveDuplicatesByListIDPutForbidden() *ListsRemoveDuplicatesByList
 FORBIDDEN
 */
 type ListsRemoveDuplicatesByListIDPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsRemoveDuplicatesByListIDPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewListsRemoveDuplicatesByListIDPutNotFound() *ListsRemoveDuplicatesByListI
 NOT_FOUND
 */
 type ListsRemoveDuplicatesByListIDPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsRemoveDuplicatesByListIDPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewListsRemoveDuplicatesByListIDPutMethodNotAllowed() *ListsRemoveDuplicate
 METHOD_NOT_FOUND
 */
 type ListsRemoveDuplicatesByListIDPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsRemoveDuplicatesByListIDPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewListsRemoveDuplicatesByListIDPutTooManyRequests() *ListsRemoveDuplicates
 TOO_MANY_REQUESTS
 */
 type ListsRemoveDuplicatesByListIDPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsRemoveDuplicatesByListIDPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ListsRemoveDuplicatesByListIDPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the lists remove duplicates by list Id put default response

@@ -94,7 +94,7 @@ func NewListsImportByListIDPostOK() *ListsImportByListIDPostOK {
 SUCCESS
 */
 type ListsImportByListIDPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsImportByListIDPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewListsImportByListIDPostBadRequest() *ListsImportByListIDPostBadRequest {
 BAD_REQUEST
 */
 type ListsImportByListIDPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsImportByListIDPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewListsImportByListIDPostUnauthorized() *ListsImportByListIDPostUnauthoriz
 UNAUTHORIZED
 */
 type ListsImportByListIDPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsImportByListIDPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewListsImportByListIDPostForbidden() *ListsImportByListIDPostForbidden {
 FORBIDDEN
 */
 type ListsImportByListIDPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsImportByListIDPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewListsImportByListIDPostNotFound() *ListsImportByListIDPostNotFound {
 NOT_FOUND
 */
 type ListsImportByListIDPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsImportByListIDPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewListsImportByListIDPostMethodNotAllowed() *ListsImportByListIDPostMethod
 METHOD_NOT_FOUND
 */
 type ListsImportByListIDPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsImportByListIDPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewListsImportByListIDPostTooManyRequests() *ListsImportByListIDPostTooMany
 TOO_MANY_REQUESTS
 */
 type ListsImportByListIDPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsImportByListIDPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ListsImportByListIDPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the lists import by list Id post default response

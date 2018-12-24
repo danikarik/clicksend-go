@@ -94,7 +94,7 @@ func NewPostPostcardsPricePostOK() *PostPostcardsPricePostOK {
 SUCCESS
 */
 type PostPostcardsPricePostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsPricePostOK) Error() string {
@@ -121,7 +121,7 @@ func NewPostPostcardsPricePostBadRequest() *PostPostcardsPricePostBadRequest {
 BAD_REQUEST
 */
 type PostPostcardsPricePostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsPricePostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewPostPostcardsPricePostUnauthorized() *PostPostcardsPricePostUnauthorized
 UNAUTHORIZED
 */
 type PostPostcardsPricePostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsPricePostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewPostPostcardsPricePostForbidden() *PostPostcardsPricePostForbidden {
 FORBIDDEN
 */
 type PostPostcardsPricePostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsPricePostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewPostPostcardsPricePostNotFound() *PostPostcardsPricePostNotFound {
 NOT_FOUND
 */
 type PostPostcardsPricePostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsPricePostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewPostPostcardsPricePostMethodNotAllowed() *PostPostcardsPricePostMethodNo
 METHOD_NOT_FOUND
 */
 type PostPostcardsPricePostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsPricePostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewPostPostcardsPricePostTooManyRequests() *PostPostcardsPricePostTooManyRe
 TOO_MANY_REQUESTS
 */
 type PostPostcardsPricePostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *PostPostcardsPricePostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type PostPostcardsPricePostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the post postcards price post default response

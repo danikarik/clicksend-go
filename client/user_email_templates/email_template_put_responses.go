@@ -94,7 +94,7 @@ func NewEmailTemplatePutOK() *EmailTemplatePutOK {
 SUCCESS
 */
 type EmailTemplatePutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailTemplatePutOK) Error() string {
@@ -121,7 +121,7 @@ func NewEmailTemplatePutBadRequest() *EmailTemplatePutBadRequest {
 BAD_REQUEST
 */
 type EmailTemplatePutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailTemplatePutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewEmailTemplatePutUnauthorized() *EmailTemplatePutUnauthorized {
 UNAUTHORIZED
 */
 type EmailTemplatePutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailTemplatePutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewEmailTemplatePutForbidden() *EmailTemplatePutForbidden {
 FORBIDDEN
 */
 type EmailTemplatePutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailTemplatePutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewEmailTemplatePutNotFound() *EmailTemplatePutNotFound {
 NOT_FOUND
 */
 type EmailTemplatePutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailTemplatePutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewEmailTemplatePutMethodNotAllowed() *EmailTemplatePutMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type EmailTemplatePutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailTemplatePutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewEmailTemplatePutTooManyRequests() *EmailTemplatePutTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type EmailTemplatePutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *EmailTemplatePutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type EmailTemplatePutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the email template put default response

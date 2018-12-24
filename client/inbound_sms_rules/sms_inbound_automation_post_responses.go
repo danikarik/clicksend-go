@@ -94,7 +94,7 @@ func NewSMSInboundAutomationPostOK() *SMSInboundAutomationPostOK {
 SUCCESS
 */
 type SMSInboundAutomationPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSInboundAutomationPostBadRequest() *SMSInboundAutomationPostBadRequest
 BAD_REQUEST
 */
 type SMSInboundAutomationPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSInboundAutomationPostUnauthorized() *SMSInboundAutomationPostUnauthor
 UNAUTHORIZED
 */
 type SMSInboundAutomationPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSInboundAutomationPostForbidden() *SMSInboundAutomationPostForbidden {
 FORBIDDEN
 */
 type SMSInboundAutomationPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSInboundAutomationPostNotFound() *SMSInboundAutomationPostNotFound {
 NOT_FOUND
 */
 type SMSInboundAutomationPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSInboundAutomationPostMethodNotAllowed() *SMSInboundAutomationPostMeth
 METHOD_NOT_FOUND
 */
 type SMSInboundAutomationPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSInboundAutomationPostTooManyRequests() *SMSInboundAutomationPostTooMa
 TOO_MANY_REQUESTS
 */
 type SMSInboundAutomationPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSInboundAutomationPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms inbound automation post default response

@@ -94,7 +94,7 @@ func NewSMSInboundAutomationGetOK() *SMSInboundAutomationGetOK {
 SUCCESS
 */
 type SMSInboundAutomationGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSInboundAutomationGetBadRequest() *SMSInboundAutomationGetBadRequest {
 BAD_REQUEST
 */
 type SMSInboundAutomationGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSInboundAutomationGetUnauthorized() *SMSInboundAutomationGetUnauthoriz
 UNAUTHORIZED
 */
 type SMSInboundAutomationGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSInboundAutomationGetForbidden() *SMSInboundAutomationGetForbidden {
 FORBIDDEN
 */
 type SMSInboundAutomationGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSInboundAutomationGetNotFound() *SMSInboundAutomationGetNotFound {
 NOT_FOUND
 */
 type SMSInboundAutomationGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSInboundAutomationGetMethodNotAllowed() *SMSInboundAutomationGetMethod
 METHOD_NOT_FOUND
 */
 type SMSInboundAutomationGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSInboundAutomationGetTooManyRequests() *SMSInboundAutomationGetTooMany
 TOO_MANY_REQUESTS
 */
 type SMSInboundAutomationGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSInboundAutomationGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSInboundAutomationGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms inbound automation get default response

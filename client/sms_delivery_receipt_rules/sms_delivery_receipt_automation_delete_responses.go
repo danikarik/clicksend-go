@@ -94,7 +94,7 @@ func NewSMSDeliveryReceiptAutomationDeleteOK() *SMSDeliveryReceiptAutomationDele
 SUCCESS
 */
 type SMSDeliveryReceiptAutomationDeleteOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSDeliveryReceiptAutomationDeleteOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSDeliveryReceiptAutomationDeleteBadRequest() *SMSDeliveryReceiptAutoma
 BAD_REQUEST
 */
 type SMSDeliveryReceiptAutomationDeleteBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSDeliveryReceiptAutomationDeleteBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSDeliveryReceiptAutomationDeleteUnauthorized() *SMSDeliveryReceiptAuto
 UNAUTHORIZED
 */
 type SMSDeliveryReceiptAutomationDeleteUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSDeliveryReceiptAutomationDeleteUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSDeliveryReceiptAutomationDeleteForbidden() *SMSDeliveryReceiptAutomat
 FORBIDDEN
 */
 type SMSDeliveryReceiptAutomationDeleteForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSDeliveryReceiptAutomationDeleteForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSDeliveryReceiptAutomationDeleteNotFound() *SMSDeliveryReceiptAutomati
 NOT_FOUND
 */
 type SMSDeliveryReceiptAutomationDeleteNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSDeliveryReceiptAutomationDeleteNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSDeliveryReceiptAutomationDeleteMethodNotAllowed() *SMSDeliveryReceipt
 METHOD_NOT_FOUND
 */
 type SMSDeliveryReceiptAutomationDeleteMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSDeliveryReceiptAutomationDeleteMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSDeliveryReceiptAutomationDeleteTooManyRequests() *SMSDeliveryReceiptA
 TOO_MANY_REQUESTS
 */
 type SMSDeliveryReceiptAutomationDeleteTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSDeliveryReceiptAutomationDeleteTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSDeliveryReceiptAutomationDeleteDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms delivery receipt automation delete default response

@@ -94,7 +94,7 @@ func NewMMSCampaignsByMMSCampaignIDPutOK() *MMSCampaignsByMMSCampaignIDPutOK {
 SUCCESS
 */
 type MMSCampaignsByMMSCampaignIDPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsByMMSCampaignIDPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewMMSCampaignsByMMSCampaignIDPutBadRequest() *MMSCampaignsByMMSCampaignIDP
 BAD_REQUEST
 */
 type MMSCampaignsByMMSCampaignIDPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsByMMSCampaignIDPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewMMSCampaignsByMMSCampaignIDPutUnauthorized() *MMSCampaignsByMMSCampaignI
 UNAUTHORIZED
 */
 type MMSCampaignsByMMSCampaignIDPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsByMMSCampaignIDPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewMMSCampaignsByMMSCampaignIDPutForbidden() *MMSCampaignsByMMSCampaignIDPu
 FORBIDDEN
 */
 type MMSCampaignsByMMSCampaignIDPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsByMMSCampaignIDPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewMMSCampaignsByMMSCampaignIDPutNotFound() *MMSCampaignsByMMSCampaignIDPut
 NOT_FOUND
 */
 type MMSCampaignsByMMSCampaignIDPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsByMMSCampaignIDPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewMMSCampaignsByMMSCampaignIDPutMethodNotAllowed() *MMSCampaignsByMMSCampa
 METHOD_NOT_FOUND
 */
 type MMSCampaignsByMMSCampaignIDPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsByMMSCampaignIDPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewMMSCampaignsByMMSCampaignIDPutTooManyRequests() *MMSCampaignsByMMSCampai
 TOO_MANY_REQUESTS
 */
 type MMSCampaignsByMMSCampaignIDPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *MMSCampaignsByMMSCampaignIDPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type MMSCampaignsByMMSCampaignIDPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Mms campaigns by Mms campaign Id put default response

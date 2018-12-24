@@ -94,7 +94,7 @@ func NewSMSCancelAllPutOK() *SMSCancelAllPutOK {
 SUCCESS
 */
 type SMSCancelAllPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCancelAllPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSCancelAllPutBadRequest() *SMSCancelAllPutBadRequest {
 BAD_REQUEST
 */
 type SMSCancelAllPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCancelAllPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSCancelAllPutUnauthorized() *SMSCancelAllPutUnauthorized {
 UNAUTHORIZED
 */
 type SMSCancelAllPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCancelAllPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSCancelAllPutForbidden() *SMSCancelAllPutForbidden {
 FORBIDDEN
 */
 type SMSCancelAllPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCancelAllPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSCancelAllPutNotFound() *SMSCancelAllPutNotFound {
 NOT_FOUND
 */
 type SMSCancelAllPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCancelAllPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSCancelAllPutMethodNotAllowed() *SMSCancelAllPutMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type SMSCancelAllPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCancelAllPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSCancelAllPutTooManyRequests() *SMSCancelAllPutTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type SMSCancelAllPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSCancelAllPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSCancelAllPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms cancel all put default response

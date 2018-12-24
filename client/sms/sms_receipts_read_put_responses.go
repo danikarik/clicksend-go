@@ -94,7 +94,7 @@ func NewSMSReceiptsReadPutOK() *SMSReceiptsReadPutOK {
 SUCCESS
 */
 type SMSReceiptsReadPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsReadPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSReceiptsReadPutBadRequest() *SMSReceiptsReadPutBadRequest {
 BAD_REQUEST
 */
 type SMSReceiptsReadPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsReadPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSReceiptsReadPutUnauthorized() *SMSReceiptsReadPutUnauthorized {
 UNAUTHORIZED
 */
 type SMSReceiptsReadPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsReadPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSReceiptsReadPutForbidden() *SMSReceiptsReadPutForbidden {
 FORBIDDEN
 */
 type SMSReceiptsReadPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsReadPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSReceiptsReadPutNotFound() *SMSReceiptsReadPutNotFound {
 NOT_FOUND
 */
 type SMSReceiptsReadPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsReadPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSReceiptsReadPutMethodNotAllowed() *SMSReceiptsReadPutMethodNotAllowed
 METHOD_NOT_FOUND
 */
 type SMSReceiptsReadPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsReadPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSReceiptsReadPutTooManyRequests() *SMSReceiptsReadPutTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type SMSReceiptsReadPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSReceiptsReadPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSReceiptsReadPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms receipts read put default response

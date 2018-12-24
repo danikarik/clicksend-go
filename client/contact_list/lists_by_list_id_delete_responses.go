@@ -94,7 +94,7 @@ func NewListsByListIDDeleteOK() *ListsByListIDDeleteOK {
 SUCCESS
 */
 type ListsByListIDDeleteOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsByListIDDeleteOK) Error() string {
@@ -121,7 +121,7 @@ func NewListsByListIDDeleteBadRequest() *ListsByListIDDeleteBadRequest {
 BAD_REQUEST
 */
 type ListsByListIDDeleteBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsByListIDDeleteBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewListsByListIDDeleteUnauthorized() *ListsByListIDDeleteUnauthorized {
 UNAUTHORIZED
 */
 type ListsByListIDDeleteUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsByListIDDeleteUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewListsByListIDDeleteForbidden() *ListsByListIDDeleteForbidden {
 FORBIDDEN
 */
 type ListsByListIDDeleteForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsByListIDDeleteForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewListsByListIDDeleteNotFound() *ListsByListIDDeleteNotFound {
 NOT_FOUND
 */
 type ListsByListIDDeleteNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsByListIDDeleteNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewListsByListIDDeleteMethodNotAllowed() *ListsByListIDDeleteMethodNotAllow
 METHOD_NOT_FOUND
 */
 type ListsByListIDDeleteMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsByListIDDeleteMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewListsByListIDDeleteTooManyRequests() *ListsByListIDDeleteTooManyRequests
 TOO_MANY_REQUESTS
 */
 type ListsByListIDDeleteTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *ListsByListIDDeleteTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type ListsByListIDDeleteDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the lists by list Id delete default response

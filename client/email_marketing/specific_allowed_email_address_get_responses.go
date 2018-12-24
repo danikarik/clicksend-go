@@ -94,7 +94,7 @@ func NewSpecificAllowedEmailAddressGetOK() *SpecificAllowedEmailAddressGetOK {
 SUCCESS
 */
 type SpecificAllowedEmailAddressGetOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SpecificAllowedEmailAddressGetOK) Error() string {
@@ -121,7 +121,7 @@ func NewSpecificAllowedEmailAddressGetBadRequest() *SpecificAllowedEmailAddressG
 BAD_REQUEST
 */
 type SpecificAllowedEmailAddressGetBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SpecificAllowedEmailAddressGetBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSpecificAllowedEmailAddressGetUnauthorized() *SpecificAllowedEmailAddres
 UNAUTHORIZED
 */
 type SpecificAllowedEmailAddressGetUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SpecificAllowedEmailAddressGetUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSpecificAllowedEmailAddressGetForbidden() *SpecificAllowedEmailAddressGe
 FORBIDDEN
 */
 type SpecificAllowedEmailAddressGetForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SpecificAllowedEmailAddressGetForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSpecificAllowedEmailAddressGetNotFound() *SpecificAllowedEmailAddressGet
 NOT_FOUND
 */
 type SpecificAllowedEmailAddressGetNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SpecificAllowedEmailAddressGetNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSpecificAllowedEmailAddressGetMethodNotAllowed() *SpecificAllowedEmailAd
 METHOD_NOT_FOUND
 */
 type SpecificAllowedEmailAddressGetMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SpecificAllowedEmailAddressGetMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSpecificAllowedEmailAddressGetTooManyRequests() *SpecificAllowedEmailAdd
 TOO_MANY_REQUESTS
 */
 type SpecificAllowedEmailAddressGetTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SpecificAllowedEmailAddressGetTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SpecificAllowedEmailAddressGetDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the specific allowed email address get default response

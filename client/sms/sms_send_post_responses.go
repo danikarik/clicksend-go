@@ -94,7 +94,7 @@ func NewSMSSendPostOK() *SMSSendPostOK {
 SUCCESS
 */
 type SMSSendPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSSendPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewSMSSendPostBadRequest() *SMSSendPostBadRequest {
 BAD_REQUEST
 */
 type SMSSendPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSSendPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewSMSSendPostUnauthorized() *SMSSendPostUnauthorized {
 UNAUTHORIZED
 */
 type SMSSendPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSSendPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewSMSSendPostForbidden() *SMSSendPostForbidden {
 FORBIDDEN
 */
 type SMSSendPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSSendPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewSMSSendPostNotFound() *SMSSendPostNotFound {
 NOT_FOUND
 */
 type SMSSendPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSSendPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewSMSSendPostMethodNotAllowed() *SMSSendPostMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type SMSSendPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSSendPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewSMSSendPostTooManyRequests() *SMSSendPostTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type SMSSendPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *SMSSendPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type SMSSendPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Sms send post default response

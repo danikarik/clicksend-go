@@ -94,7 +94,7 @@ func NewAccountVerifySendPutOK() *AccountVerifySendPutOK {
 SUCCESS
 */
 type AccountVerifySendPutOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountVerifySendPutOK) Error() string {
@@ -121,7 +121,7 @@ func NewAccountVerifySendPutBadRequest() *AccountVerifySendPutBadRequest {
 BAD_REQUEST
 */
 type AccountVerifySendPutBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountVerifySendPutBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewAccountVerifySendPutUnauthorized() *AccountVerifySendPutUnauthorized {
 UNAUTHORIZED
 */
 type AccountVerifySendPutUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountVerifySendPutUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewAccountVerifySendPutForbidden() *AccountVerifySendPutForbidden {
 FORBIDDEN
 */
 type AccountVerifySendPutForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountVerifySendPutForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewAccountVerifySendPutNotFound() *AccountVerifySendPutNotFound {
 NOT_FOUND
 */
 type AccountVerifySendPutNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountVerifySendPutNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewAccountVerifySendPutMethodNotAllowed() *AccountVerifySendPutMethodNotAll
 METHOD_NOT_FOUND
 */
 type AccountVerifySendPutMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountVerifySendPutMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewAccountVerifySendPutTooManyRequests() *AccountVerifySendPutTooManyReques
 TOO_MANY_REQUESTS
 */
 type AccountVerifySendPutTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *AccountVerifySendPutTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type AccountVerifySendPutDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the account verify send put default response

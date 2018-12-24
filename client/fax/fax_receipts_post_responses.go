@@ -94,7 +94,7 @@ func NewFAXReceiptsPostOK() *FAXReceiptsPostOK {
 SUCCESS
 */
 type FAXReceiptsPostOK struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsPostOK) Error() string {
@@ -121,7 +121,7 @@ func NewFAXReceiptsPostBadRequest() *FAXReceiptsPostBadRequest {
 BAD_REQUEST
 */
 type FAXReceiptsPostBadRequest struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsPostBadRequest) Error() string {
@@ -148,7 +148,7 @@ func NewFAXReceiptsPostUnauthorized() *FAXReceiptsPostUnauthorized {
 UNAUTHORIZED
 */
 type FAXReceiptsPostUnauthorized struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsPostUnauthorized) Error() string {
@@ -175,7 +175,7 @@ func NewFAXReceiptsPostForbidden() *FAXReceiptsPostForbidden {
 FORBIDDEN
 */
 type FAXReceiptsPostForbidden struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsPostForbidden) Error() string {
@@ -202,7 +202,7 @@ func NewFAXReceiptsPostNotFound() *FAXReceiptsPostNotFound {
 NOT_FOUND
 */
 type FAXReceiptsPostNotFound struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsPostNotFound) Error() string {
@@ -229,7 +229,7 @@ func NewFAXReceiptsPostMethodNotAllowed() *FAXReceiptsPostMethodNotAllowed {
 METHOD_NOT_FOUND
 */
 type FAXReceiptsPostMethodNotAllowed struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsPostMethodNotAllowed) Error() string {
@@ -256,7 +256,7 @@ func NewFAXReceiptsPostTooManyRequests() *FAXReceiptsPostTooManyRequests {
 TOO_MANY_REQUESTS
 */
 type FAXReceiptsPostTooManyRequests struct {
-	Payload string
+	Payload interface{}
 }
 
 func (o *FAXReceiptsPostTooManyRequests) Error() string {
@@ -287,7 +287,7 @@ INTERNAL_SERVER_ERROR
 type FAXReceiptsPostDefault struct {
 	_statusCode int
 
-	Payload string
+	Payload interface{}
 }
 
 // Code gets the status code for the Fax receipts post default response
